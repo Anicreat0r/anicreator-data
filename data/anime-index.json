@@ -8,8 +8,7 @@
     "banner": "https://a.storyblok.com/f/178900/960x540/47681acebc/bluelockepisodenagi_16x9_3840x2160.png/m/filters:quality(95)format(webp)",
     "genres": " Action, Drama, Sports",
     "tags": "Blue Lock The Movie EPISODE NAGI (2024) ",
-    "status": "ongoing",
-    "type": "movie"
+    "status": "ongoing"
   },
   {
     "id": "a4b44f90-10f7-4565-8780-97f952a1df14",
@@ -130,8 +129,7 @@
     "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy96fQMR6g1IEZif59IHwCOAhaRgqPc57Nc_KCfxDXDCjrPBiCBNvIYes&s=10",
     "genres": "Action, Adventure, Fantasy",
     "tags": "Overlord: Sei Oukoku-hen",
-    "status": "ongoing",
-    "type": "movie"
+    "status": "ongoing"
   },
   {
     "id": "4f009046-ec28-4c29-bd0c-5f31e7a54c86",
@@ -164,6 +162,17 @@
     "banner": "https://m.media-amazon.com/images/S/pv-target-images/b4fea3feed78e6c4ae49aeba5e8c6b64dfbf24184fdafaad375f47a71bd4c75a.jpg",
     "genres": "Comedy Fantasy Mahou Shoujo Romance",
     "tags": "Hindi , The Magical Girl and the Evil Lieutenant Used to Be Archenemies",
+    "status": "ongoing"
+  },
+  {
+    "id": "8fb18707-187a-4cb8-a2eb-f9e94b68df17",
+    "title": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill",
+    "slug": "as-a-reincarnated-aristocrat-ill-use-my-appraisal-skill",
+    "description": "Our protagonist, Ars Louvent, was reincarnated in another world as the young son of a minor noble who owns a small domain. Ars was not particularly strong or intelligent, but he was born with the Appraisal Skill that's able to see others' abilities and statuses. He uses his skill to find the best hidden talents in the world to make their small, weak domain into the best. An isekai tale about unification is about to start, featuring the kind-hearted Ars and the unique talents he manages to find!",
+    "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx164702-FjpM96MPdzVm.jpg",
+    "banner": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/df4a138281900f767ad11134bd666551.png",
+    "genres": "Adventure, Fantasy",
+    "tags": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill , Hindi",
     "status": "ongoing"
   }
 ]
