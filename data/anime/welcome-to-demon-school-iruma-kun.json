@@ -7,18 +7,13 @@
   "banner": "https://m.media-amazon.com/images/S/pv-target-images/c6c538a11fe4ac4e420dbe420df6185a98d6db34285a593e46d2d611d1b71a22._SX1080_FMjpg_.jpg",
   "genres": "Comedy, Fantasy",
   "tags": "Welcome To Demon School! Iruma-kun ",
-  "type": "anime",
   "status": "ongoing",
-  "created_at": "2026-08-05T13:44:40.896Z",
-  "updated_at": "2026-08-05T13:44:40.896Z",
   "seasons": [
     {
       "id": "c248f117-b12e-4ba4-81e3-3ad9d3fc9ecc",
       "anime_id": "73978c1f-7c50-4446-a5d7-b58a2285b061",
       "season_number": 1,
       "title": "",
-      "created_at": "2026-08-05T13:50:55.593Z",
-      "updated_at": "2026-08-05T13:50:55.593Z",
       "episodes": [
         {
           "id": "52cf752e-6de6-47e1-ae93-caa6203b8801",
@@ -27,9 +22,7 @@
           "sub_url": "https://drive.google.com/file/d/1prYdpLS-scsTP6zSLXnDt9jPWHpDM256/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": "",
-          "created_at": "2026-08-05T13:51:45.806Z",
-          "updated_at": "2026-08-05T13:51:45.806Z"
+          "duration": ""
         },
         {
           "id": "442b5911-f6d3-4de0-b64e-dc70c2c50214",
@@ -38,9 +31,7 @@
           "sub_url": "https://drive.google.com/file/d/1ZWGDMt9eRLUKlJbm40VxKNMis7gd8gks/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": "",
-          "created_at": "2026-08-05T13:51:45.806Z",
-          "updated_at": "2026-08-05T13:51:45.806Z"
+          "duration": ""
         },
         {
           "id": "0a4c8ed5-f1fa-4c04-b0cb-780a25d76fd1",
@@ -49,9 +40,7 @@
           "sub_url": "https://drive.google.com/file/d/17mPd1GNp8_KiwbmDg8ellf1SPqvWW5qP/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": "",
-          "created_at": "2026-08-05T13:51:45.806Z",
-          "updated_at": "2026-08-05T13:51:45.806Z"
+          "duration": ""
         },
         {
           "id": "4e158191-5b8c-4f06-81e0-1a5b18a8e36a",
@@ -60,9 +49,7 @@
           "sub_url": "https://drive.google.com/file/d/1XeWTY-XuT7Y451AxB7GLSlxn6ORJ4wXD/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": "",
-          "created_at": "2026-08-05T13:51:45.806Z",
-          "updated_at": "2026-08-05T13:51:45.806Z"
+          "duration": ""
         },
         {
           "id": "03bdb42e-df5d-4136-a18c-a91de83bc1ed",
@@ -71,9 +58,7 @@
           "sub_url": "https://drive.google.com/file/d/1uUHH1r0wMpBaLMnEX9FG4NUgbNwDjOHS/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": "",
-          "created_at": "2026-08-05T13:51:45.806Z",
-          "updated_at": "2026-08-05T13:51:45.806Z"
+          "duration": ""
         },
         {
           "id": "07a40e77-2776-4a7f-9f4a-761004f20bc4",
@@ -82,9 +67,7 @@
           "sub_url": "https://drive.google.com/file/d/1NCw1Jk6I6V5yjmse_kth01eL8pWF1jzq/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": "",
-          "created_at": "2026-08-05T13:51:45.806Z",
-          "updated_at": "2026-08-05T13:51:45.806Z"
+          "duration": ""
         },
         {
           "id": "0822e544-1845-4f18-b987-ae6af8e2aca5",
@@ -93,9 +76,7 @@
           "sub_url": "https://drive.google.com/file/d/1aCc1ccJZ1aG2asU3xyy349Zb5FQLxHwW/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": "",
-          "created_at": "2026-08-05T13:51:45.806Z",
-          "updated_at": "2026-08-05T13:51:45.806Z"
+          "duration": ""
         },
         {
           "id": "c27991b6-e4f9-4efb-ba3b-b51eda40642b",
@@ -104,9 +85,7 @@
           "sub_url": "https://drive.google.com/file/d/1Wu5kCnMJ-IGHJwOIbRiBRcLFY0pbOkGc/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": "",
-          "created_at": "2026-08-05T13:51:45.806Z",
-          "updated_at": "2026-08-05T13:51:45.806Z"
+          "duration": ""
         },
         {
           "id": "91e20f96-59e4-419d-990c-1496637e772e",
@@ -115,9 +94,7 @@
           "sub_url": "https://drive.google.com/file/d/1_GFvK5yPThjBNr54J6k34FeCF-aIpyls/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": "",
-          "created_at": "2026-08-05T13:51:45.806Z",
-          "updated_at": "2026-08-05T13:51:45.806Z"
+          "duration": ""
         },
         {
           "id": "748136d8-89fc-483f-884a-e3e8c3c72f0f",
@@ -126,9 +103,7 @@
           "sub_url": "https://drive.google.com/file/d/1jyvwd-cj0WbJhShrGR_EpgOAz9yMG92n/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": "",
-          "created_at": "2026-08-05T13:51:45.806Z",
-          "updated_at": "2026-08-05T13:51:45.806Z"
+          "duration": ""
         },
         {
           "id": "e5fa16e5-0bbf-4365-8839-9b695db03e5c",
@@ -137,9 +112,7 @@
           "sub_url": "https://drive.google.com/file/d/1koLheaj8ybXI8Z7_Pst3nfiSTTxrFV3U/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": "",
-          "created_at": "2026-08-05T13:51:45.806Z",
-          "updated_at": "2026-08-05T13:51:45.806Z"
+          "duration": ""
         },
         {
           "id": "6a1ddfbc-402d-4045-9b02-e9d8d7ff5f00",
@@ -148,9 +121,7 @@
           "sub_url": "https://drive.google.com/file/d/10CEHeiO6TV9eJWwC0d8QzogBz4YPRSIH/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": "",
-          "created_at": "2026-08-05T13:51:45.806Z",
-          "updated_at": "2026-08-05T13:51:45.806Z"
+          "duration": ""
         },
         {
           "id": "f4e2f99d-4ac2-492d-b993-c4ebbe4de0de",
@@ -159,9 +130,7 @@
           "sub_url": "https://drive.google.com/file/d/1onfwoVO0xbVV575uAlsDcCvx02axT9Lg/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": "",
-          "created_at": "2026-08-05T13:51:45.806Z",
-          "updated_at": "2026-08-05T13:51:45.806Z"
+          "duration": ""
         },
         {
           "id": "d7b4a908-2862-4660-9341-1b29a0019189",
@@ -170,9 +139,7 @@
           "sub_url": "https://drive.google.com/file/d/1siQKrhgX0DLieXwxCnfhQtitJeFXmUKP/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": "",
-          "created_at": "2026-08-05T13:51:45.806Z",
-          "updated_at": "2026-08-05T13:51:45.806Z"
+          "duration": ""
         },
         {
           "id": "24ff2a75-4930-4a51-b629-e85458a4638b",
@@ -181,9 +148,7 @@
           "sub_url": "https://drive.google.com/file/d/1cVW7QOYWzPG3oWFKm70TXknRTbGqXhw5/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": "",
-          "created_at": "2026-08-05T13:51:45.806Z",
-          "updated_at": "2026-08-05T13:51:45.806Z"
+          "duration": ""
         },
         {
           "id": "367378ae-a623-440c-987d-9e00165a0cf2",
@@ -192,9 +157,7 @@
           "sub_url": "https://drive.google.com/file/d/1STZ4iVitOuI2fRQUlTcSGE6GKHqF_xuN/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": "",
-          "created_at": "2026-08-05T13:51:45.806Z",
-          "updated_at": "2026-08-05T13:51:45.806Z"
+          "duration": ""
         },
         {
           "id": "83e8ee33-5b29-4e77-a179-5bfccf94fe1a",
@@ -203,9 +166,7 @@
           "sub_url": "https://drive.google.com/file/d/1RRUqI4-_yPv2AmxjlHuegLDvoKo7VBNP/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": "",
-          "created_at": "2026-08-05T13:51:45.806Z",
-          "updated_at": "2026-08-05T13:51:45.806Z"
+          "duration": ""
         },
         {
           "id": "cf9e385f-87fd-4310-a2f3-c6beedf92017",
@@ -214,9 +175,7 @@
           "sub_url": "https://drive.google.com/file/d/1tWZGTct2Bm9xV70ABinFcKzfUvdZOPr-/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": "",
-          "created_at": "2026-08-05T13:51:45.806Z",
-          "updated_at": "2026-08-05T13:51:45.806Z"
+          "duration": ""
         },
         {
           "id": "1f79f79b-aec9-47d9-b0d0-dddbc53b5dd0",
@@ -225,9 +184,7 @@
           "sub_url": "https://drive.google.com/file/d/11XXOK5xR6fYohA9rYD90zqtGIfvI7OO6/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": "",
-          "created_at": "2026-08-05T13:51:45.806Z",
-          "updated_at": "2026-08-05T13:51:45.806Z"
+          "duration": ""
         },
         {
           "id": "b479ef02-07fa-4352-bfe2-3f321b93ab3e",
@@ -236,9 +193,7 @@
           "sub_url": "https://drive.google.com/file/d/1_heekvSOl3Luyetg4VztTTjWx9TNefvX/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": "",
-          "created_at": "2026-08-05T13:51:45.806Z",
-          "updated_at": "2026-08-05T13:51:45.806Z"
+          "duration": ""
         },
         {
           "id": "a836da8f-78f6-441f-ae58-32988485788f",
@@ -247,9 +202,7 @@
           "sub_url": "https://drive.google.com/file/d/1p4UBMt8kjCf4iEwpkj4QUH1RPZQaO1MP/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": "",
-          "created_at": "2026-08-05T13:51:45.806Z",
-          "updated_at": "2026-08-05T13:51:45.806Z"
+          "duration": ""
         },
         {
           "id": "7437047f-2485-4bf1-abe9-9758cf8e9572",
@@ -258,9 +211,7 @@
           "sub_url": "https://drive.google.com/file/d/1Rn0c2tWl1HwhcZtJh7LQ7zOdnnMVvYyb/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": "",
-          "created_at": "2026-08-05T13:51:45.806Z",
-          "updated_at": "2026-08-05T13:51:45.806Z"
+          "duration": ""
         },
         {
           "id": "42b2ffbf-065e-443f-981f-02ddf665030d",
@@ -269,9 +220,7 @@
           "sub_url": "https://drive.google.com/file/d/1zWOrkw8kJd2qKcTNbyM_rtCVGHxXBSVl/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": "",
-          "created_at": "2026-08-05T13:51:45.806Z",
-          "updated_at": "2026-08-05T13:51:45.806Z"
+          "duration": ""
         }
       ]
     }

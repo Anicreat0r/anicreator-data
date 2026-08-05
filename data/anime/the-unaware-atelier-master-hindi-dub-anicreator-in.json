@@ -7,18 +7,13 @@
   "banner": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=cover,format=auto,quality=85,width=1920/keyart/GKEH2G0J4-backdrop_wide",
   "genres": "Action, Adventure, Fantasy",
   "tags": "The Unaware Atelier Master ,Kanchigai no Atelier Meister: Eiyuu Party no Moto Zatsuyougakari ga, Jitsu wa Sentou Igai ga SSS Rank Datta to Iu Yoku Aru Hanashi",
-  "type": "anime",
   "status": "ongoing",
-  "created_at": "2026-08-05T14:54:10.259Z",
-  "updated_at": "2026-08-05T14:54:10.259Z",
   "seasons": [
     {
       "id": "4ecede41-03b3-45d7-ab81-91f1fc018f84",
       "anime_id": "ab9044cd-1c11-4cd4-bad8-9d6c301b33b5",
       "season_number": 1,
       "title": "",
-      "created_at": "2026-08-05T14:55:12.748Z",
-      "updated_at": "2026-08-05T14:55:12.748Z",
       "episodes": [
         {
           "id": "32fa2ea6-c631-4699-bb0a-fa14286777bb",
@@ -27,9 +22,7 @@
           "sub_url": "https://drive.google.com/file/d/11AwXDXPvVj3B2d8oVXwNUlarCNBobDxp/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": "",
-          "created_at": "2026-08-05T14:55:40.664Z",
-          "updated_at": "2026-08-05T14:55:40.664Z"
+          "duration": ""
         },
         {
           "id": "3e695f9f-fbcf-43f6-906f-cf9b269feaca",
@@ -38,9 +31,7 @@
           "sub_url": "https://drive.google.com/file/d/1BkU5wIqne6Ur4jTT454cVOmjlL6h2C_B/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": "",
-          "created_at": "2026-08-05T14:55:40.664Z",
-          "updated_at": "2026-08-05T14:55:40.664Z"
+          "duration": ""
         },
         {
           "id": "c6df1317-d157-41b8-9373-5cb9e8ff0a0e",
@@ -49,9 +40,7 @@
           "sub_url": "https://drive.google.com/file/d/1n4NlxTEjZr2XkTfUEcsjJeY-7GlMSWA5/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": "",
-          "created_at": "2026-08-05T14:55:40.664Z",
-          "updated_at": "2026-08-05T14:55:40.664Z"
+          "duration": ""
         },
         {
           "id": "0a435e8d-4a2b-4ea0-bac6-698f0040a668",
@@ -60,9 +49,7 @@
           "sub_url": "https://drive.google.com/file/d/1WXacK7xfm4Pv2L6nNdiHBRUC_IiyvcWU/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": "",
-          "created_at": "2026-08-05T14:55:40.664Z",
-          "updated_at": "2026-08-05T14:55:40.664Z"
+          "duration": ""
         },
         {
           "id": "fcf1a388-29e0-4e2e-806f-4a83f209dcae",
@@ -71,9 +58,7 @@
           "sub_url": "https://drive.google.com/file/d/1GiCL5XTUaZxGpzjCcOmBQYoNB7bLYEx7/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": "",
-          "created_at": "2026-08-05T14:55:40.664Z",
-          "updated_at": "2026-08-05T14:55:40.664Z"
+          "duration": ""
         },
         {
           "id": "be56f128-8950-4b2f-acf7-ef47f2fb5027",
@@ -82,9 +67,7 @@
           "sub_url": "https://drive.google.com/file/d/1-zQRROg2Yn1NlnbRgL2SrLQBBR9d5piW/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": "",
-          "created_at": "2026-08-05T14:55:40.664Z",
-          "updated_at": "2026-08-05T14:55:40.664Z"
+          "duration": ""
         },
         {
           "id": "21adccdf-f6e4-4f62-8703-763cd7509bd5",
@@ -93,9 +76,7 @@
           "sub_url": "https://drive.google.com/file/d/1WwdHXKMMbSEA6Gxa1xg4fsZfCAYzvvJC/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": "",
-          "created_at": "2026-08-05T14:55:40.664Z",
-          "updated_at": "2026-08-05T14:55:40.664Z"
+          "duration": ""
         },
         {
           "id": "eef241a5-fab2-44d9-9a7f-ddfa1827b4a3",
@@ -104,9 +85,7 @@
           "sub_url": "https://drive.google.com/file/d/1mOhgvQJmdAcl5Lq2puI25gBLoQkW4DjK/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": "",
-          "created_at": "2026-08-05T14:55:40.664Z",
-          "updated_at": "2026-08-05T14:55:40.664Z"
+          "duration": ""
         },
         {
           "id": "f717d022-0e8a-49ef-8d62-7c6aba6fa377",
@@ -115,9 +94,7 @@
           "sub_url": "https://drive.google.com/file/d/1DcE2574g_TYSyZ-HHmZu7OWg5UmNoB8b/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": "",
-          "created_at": "2026-08-05T14:55:40.664Z",
-          "updated_at": "2026-08-05T14:55:40.664Z"
+          "duration": ""
         },
         {
           "id": "666e503b-6d1e-46f4-965c-1e2e5a50c75f",
@@ -126,9 +103,7 @@
           "sub_url": "https://drive.google.com/file/d/1NgGy7peIkncUZ4SiVkHAcyTiK6U6VXuf/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": "",
-          "created_at": "2026-08-05T14:55:40.664Z",
-          "updated_at": "2026-08-05T14:55:40.664Z"
+          "duration": ""
         },
         {
           "id": "add0f24a-9d9c-453e-ab15-c0c4b3b047c2",
@@ -137,9 +112,7 @@
           "sub_url": "https://drive.google.com/file/d/1AhquHPExYfBkXdg_EDOkD2KqkjEE9q6T/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": "",
-          "created_at": "2026-08-05T14:55:40.664Z",
-          "updated_at": "2026-08-05T14:55:40.664Z"
+          "duration": ""
         },
         {
           "id": "cfbf7d0f-2096-450c-8687-604b828c1636",
@@ -148,9 +121,7 @@
           "sub_url": "https://drive.google.com/file/d/1SoNtl6fBgaevtEARVU4GN4xw2QffQfyk/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": "",
-          "created_at": "2026-08-05T14:55:40.664Z",
-          "updated_at": "2026-08-05T14:55:40.664Z"
+          "duration": ""
         }
       ]
     }
