@@ -143,7 +143,7 @@ footer{text-align:center;color:#555;border-top:1px solid var(--border);padding:2
   nav a{padding:5px 10px;font-size:12px}
   .search{order:3;width:100%;margin:6px 0 2px}
   .search:focus{width:100%}
-  .container{width:92%;padding:16px 0 60px}
+  .container{width:99%;padding:16px 0 60px}
   .hero,.page-title{padding:28px 22px;border-radius:var(--radius)}
   .hero h1,.page-title h1{font-size:26px}
   .hero p,.page-title p{font-size:14px}
@@ -151,8 +151,8 @@ footer{text-align:center;color:#555;border-top:1px solid var(--border);padding:2
   .details{flex-direction:column;gap:18px;padding:20px}
   .poster{width:130px;height:195px}
   .details h1{font-size:24px}
-  .player-container{padding-top:8px}
-  .anime-video-wrapper{border-radius:7px}
+  .player-container{padding-top:0px}
+  .anime-video-wrapper{border-radius:5px}
   .watermark-background-image{top:10px;width:18%;height:20%}
   .watermark-image{top:6px;right:6px;width:18%}
   .watch-head{flex-direction:column;align-items:stretch}
