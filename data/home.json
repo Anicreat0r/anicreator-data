@@ -1,0 +1,78 @@
+{
+  "latest": [
+    {
+      "anime_title": "One Piece",
+      "anime_slug": "one-piece",
+      "type": "anime",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTNjNGU4NTUtYmVjMy00YjRiLTkxMWUtNzZkMDNiYjZhNmViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BMTNjNGU4NTUtYmVjMy00YjRiLTkxMWUtNzZkMDNiYjZhNmViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "season_number": 20,
+      "episode_number": 3,
+      "title": "Ep 1141",
+      "duration": "",
+      "updated_at": "2026-08-05T05:49:46.531Z"
+    },
+    {
+      "anime_title": "One Piece",
+      "anime_slug": "one-piece",
+      "type": "anime",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTNjNGU4NTUtYmVjMy00YjRiLTkxMWUtNzZkMDNiYjZhNmViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BMTNjNGU4NTUtYmVjMy00YjRiLTkxMWUtNzZkMDNiYjZhNmViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "season_number": 20,
+      "episode_number": 1,
+      "title": "Ep 1139",
+      "duration": "",
+      "updated_at": ""
+    },
+    {
+      "anime_title": "One Piece",
+      "anime_slug": "one-piece",
+      "type": "anime",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTNjNGU4NTUtYmVjMy00YjRiLTkxMWUtNzZkMDNiYjZhNmViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BMTNjNGU4NTUtYmVjMy00YjRiLTkxMWUtNzZkMDNiYjZhNmViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "season_number": 20,
+      "episode_number": 2,
+      "title": "Ep 1140",
+      "duration": "",
+      "updated_at": ""
+    }
+  ],
+  "random": [
+    {
+      "anime_title": "One Piece",
+      "anime_slug": "one-piece",
+      "type": "anime",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTNjNGU4NTUtYmVjMy00YjRiLTkxMWUtNzZkMDNiYjZhNmViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BMTNjNGU4NTUtYmVjMy00YjRiLTkxMWUtNzZkMDNiYjZhNmViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "season_number": 20,
+      "episode_number": 3,
+      "title": "Ep 1141",
+      "duration": "",
+      "updated_at": "2026-08-05T05:49:46.531Z"
+    },
+    {
+      "anime_title": "One Piece",
+      "anime_slug": "one-piece",
+      "type": "anime",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTNjNGU4NTUtYmVjMy00YjRiLTkxMWUtNzZkMDNiYjZhNmViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BMTNjNGU4NTUtYmVjMy00YjRiLTkxMWUtNzZkMDNiYjZhNmViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "season_number": 20,
+      "episode_number": 2,
+      "title": "Ep 1140",
+      "duration": "",
+      "updated_at": ""
+    },
+    {
+      "anime_title": "One Piece",
+      "anime_slug": "one-piece",
+      "type": "anime",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTNjNGU4NTUtYmVjMy00YjRiLTkxMWUtNzZkMDNiYjZhNmViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BMTNjNGU4NTUtYmVjMy00YjRiLTkxMWUtNzZkMDNiYjZhNmViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "season_number": 20,
+      "episode_number": 1,
+      "title": "Ep 1139",
+      "duration": "",
+      "updated_at": ""
+    }
+  ]
+}

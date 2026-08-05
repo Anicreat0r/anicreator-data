@@ -2,12 +2,25 @@
   {
     "id": "1e947acb-8a2a-4b0b-b5de-26b69a92de9c",
     "title": "One Piece",
+    "type": "anime",
     "slug": "one-piece",
     "description": "",
     "poster": "https://m.media-amazon.com/images/M/MV5BMTNjNGU4NTUtYmVjMy00YjRiLTkxMWUtNzZkMDNiYjZhNmViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     "banner": "https://m.media-amazon.com/images/M/MV5BMTNjNGU4NTUtYmVjMy00YjRiLTkxMWUtNzZkMDNiYjZhNmViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     "genres": "Action,",
     "tags": "One piece",
+    "status": "ongoing"
+  },
+  {
+    "id": "819e6775-3b41-4fcb-90b5-6cf2440b409b",
+    "title": "Blue Lock The Movie EPISODE NAGI (2024) ",
+    "type": "movie",
+    "slug": "blue-lock-the-movie-episode-nagi-2024",
+    "description": "After demonstrating his overwhelming soccer talent, high school sophomore Seishiro Nagi receives an invitation to the Blue Lock Project and meets strikers from all over the country.",
+    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST-jFPQqFJZW4fwp84YjJrWQykDgWM4LaXGi44CBWlhw&s=10",
+    "banner": "https://a.storyblok.com/f/178900/960x540/47681acebc/bluelockepisodenagi_16x9_3840x2160.png/m/filters:quality(95)format(webp)",
+    "genres": " Action, Drama, Sports",
+    "tags": "Blue Lock The Movie EPISODE NAGI (2024) ",
     "status": "ongoing"
   }
 ]
