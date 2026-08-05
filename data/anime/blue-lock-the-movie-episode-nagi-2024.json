@@ -9,5 +9,23 @@
   "genres": " Action, Drama, Sports",
   "tags": "Blue Lock The Movie EPISODE NAGI (2024) ",
   "status": "ongoing",
-  "seasons": []
+  "seasons": [
+    {
+      "id": "9286a237-0433-4e26-89b0-4a6663ff5ee0",
+      "anime_id": "819e6775-3b41-4fcb-90b5-6cf2440b409b",
+      "season_number": 1,
+      "title": "Movie 1",
+      "episodes": [
+        {
+          "id": "08f43be4-571e-4e31-b8b4-c4bf3acca62b",
+          "episode_number": 1,
+          "title": "Blue Lock The Movie EPISODE NAGI (2024) ",
+          "sub_url": "",
+          "dub_url": "https://drive.google.com/file/d/1-V_X9Lp70dH0ggSQNnHdvnZmDSqiT35B/preview",
+          "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyxGI7hS3IOwvw5uHppGI0j7ZchncRH0T8kc8ypxuCg&s=10",
+          "duration": "1899-12-29T20:07:39.000Z"
+        }
+      ]
+    }
+  ]
 }

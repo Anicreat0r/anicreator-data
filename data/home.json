@@ -1,6 +1,18 @@
 {
   "latest": [
     {
+      "anime_title": "Blue Lock The Movie EPISODE NAGI (2024) ",
+      "anime_slug": "blue-lock-the-movie-episode-nagi-2024",
+      "type": "movie",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST-jFPQqFJZW4fwp84YjJrWQykDgWM4LaXGi44CBWlhw&s=10",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyxGI7hS3IOwvw5uHppGI0j7ZchncRH0T8kc8ypxuCg&s=10",
+      "season_number": 1,
+      "episode_number": 1,
+      "title": "Blue Lock The Movie EPISODE NAGI (2024) ",
+      "duration": "1899-12-29T20:07:39.000Z",
+      "updated_at": "2026-08-05T06:53:51.749Z"
+    },
+    {
       "anime_title": "One Piece",
       "anime_slug": "one-piece",
       "type": "anime",
@@ -45,22 +57,22 @@
       "poster": "https://m.media-amazon.com/images/M/MV5BMTNjNGU4NTUtYmVjMy00YjRiLTkxMWUtNzZkMDNiYjZhNmViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       "thumbnail": "https://m.media-amazon.com/images/M/MV5BMTNjNGU4NTUtYmVjMy00YjRiLTkxMWUtNzZkMDNiYjZhNmViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       "season_number": 20,
-      "episode_number": 3,
-      "title": "Ep 1141",
-      "duration": "",
-      "updated_at": "2026-08-05T05:49:46.531Z"
-    },
-    {
-      "anime_title": "One Piece",
-      "anime_slug": "one-piece",
-      "type": "anime",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTNjNGU4NTUtYmVjMy00YjRiLTkxMWUtNzZkMDNiYjZhNmViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-      "thumbnail": "https://m.media-amazon.com/images/M/MV5BMTNjNGU4NTUtYmVjMy00YjRiLTkxMWUtNzZkMDNiYjZhNmViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-      "season_number": 20,
       "episode_number": 2,
       "title": "Ep 1140",
       "duration": "",
       "updated_at": ""
+    },
+    {
+      "anime_title": "Blue Lock The Movie EPISODE NAGI (2024) ",
+      "anime_slug": "blue-lock-the-movie-episode-nagi-2024",
+      "type": "movie",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST-jFPQqFJZW4fwp84YjJrWQykDgWM4LaXGi44CBWlhw&s=10",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyxGI7hS3IOwvw5uHppGI0j7ZchncRH0T8kc8ypxuCg&s=10",
+      "season_number": 1,
+      "episode_number": 1,
+      "title": "Blue Lock The Movie EPISODE NAGI (2024) ",
+      "duration": "1899-12-29T20:07:39.000Z",
+      "updated_at": "2026-08-05T06:53:51.749Z"
     },
     {
       "anime_title": "One Piece",
@@ -73,6 +85,18 @@
       "title": "Ep 1139",
       "duration": "",
       "updated_at": ""
+    },
+    {
+      "anime_title": "One Piece",
+      "anime_slug": "one-piece",
+      "type": "anime",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTNjNGU4NTUtYmVjMy00YjRiLTkxMWUtNzZkMDNiYjZhNmViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BMTNjNGU4NTUtYmVjMy00YjRiLTkxMWUtNzZkMDNiYjZhNmViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "season_number": 20,
+      "episode_number": 3,
+      "title": "Ep 1141",
+      "duration": "",
+      "updated_at": "2026-08-05T05:49:46.531Z"
     }
   ]
 }
