@@ -14,7 +14,17 @@
       "anime_id": "a733138e-1006-4f5c-87b8-fd53a9de5e1d",
       "season_number": 1,
       "title": "",
-      "episodes": []
+      "episodes": [
+        {
+          "id": "b9b1f2d7-c1f9-4a80-88d8-3d1f46494313",
+          "episode_number": 1,
+          "title": "Magic Maker How to Make Magic in Another World S01E01",
+          "sub_url": "https://drive.google.com/file/d/14ta09mnH416cxIDXxcL8JaXYAsNqQFAG/preview",
+          "dub_url": "https://drive.google.com/file/d/14ta09mnH416cxIDXxcL8JaXYAsNqQFAG/preview",
+          "thumbnail": "",
+          "duration": ""
+        }
+      ]
     }
   ]
 }
