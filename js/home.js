@@ -30,15 +30,38 @@ function shuffleRandom(){
   const shuffled=pool.slice().sort(()=>Math.random()-.5);
   $('#random').innerHTML=shuffled.slice(0,12).map(episodeCard).join('')||'<div class="state">No random episodes available.</div>';
 }
+function setHero(item){
+  if(!item)return;
+  const bg=item.banner||item.poster||'';
+  if(bg)$('#hero').style.backgroundImage=`linear-gradient(rgba(8,8,13,.65),rgba(8,8,13,.85)),url(${JSON.stringify(esc(bg))})`;
+  $('#heroTitle').textContent=item.title||'Watch Anime & Movies';
+  $('#heroDesc').textContent=item.description||'Latest updates and random episodes.';
+}
 async function init(){
   try{
-    const r=await fetch('data/home.json',{cache:'no-cache'});
-    if(!r.ok)throw Error('Could not load home.json');
-    const d=await r.json();
-    // Latest Updates contains ONLY anime/movie cards, never individual episodes.
-    $('#latest').innerHTML=(d.latest||[]).slice(0,12).map(latestCard).join('')||'<div class="state">No latest updates yet.</div>';
-    // Shuffle immediately on the first load.
-    pool=d.random||[];
+    const idxR=await fetch('data/anime-index.json',{cache:'no-cache'});
+    if(!idxR.ok)throw Error('Could not load anime-index.json');
+    const index=await idxR.json();
+    // Latest Updates: every title in the catalog (anime + movies).
+    $('#latest').innerHTML=index.slice(0,12).map(latestCard).join('')||'<div class="state">No latest updates yet.</div>';
+    // Hero banner from the first entry.
+    setHero(index[0]);
+    // Random Episodes: build a pool of every playable episode across the catalog.
+    const detailP=index.map(async a=>{
+      try{
+        const r=await fetch(`data/anime/${encodeURIComponent(a.slug||a.id)}.json`,{cache:'no-cache'});
+        if(!r.ok)return [];
+        const d=await r.json();
+        const eps=[];
+        for(const s of (d.seasons||[])){
+          for(const e of (s.episodes||[])){
+            eps.push({anime_slug:d.slug||d.id,anime_title:d.title,season:s.season_number||1,episode_number:e.episode_number||1,title:e.title||'',thumbnail:e.thumbnail||d.poster,poster:d.poster});
+          }
+        }
+        return eps;
+      }catch(err){return [];}
+    });
+    pool=(await Promise.all(detailP)).flat();
     shuffleRandom();
   }catch(e){
     $('#latest').innerHTML='';

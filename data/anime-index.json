@@ -8,8 +8,10 @@
     "banner": "https://a.storyblok.com/f/178900/960x540/47681acebc/bluelockepisodenagi_16x9_3840x2160.png/m/filters:quality(95)format(webp)",
     "genres": " Action, Drama, Sports",
     "tags": "Blue Lock The Movie EPISODE NAGI (2024) ",
-    "status": "ongoing"
+    "status": "ongoing",
+    "type": "movie"
   },
+  
   {
     "id": "a4b44f90-10f7-4565-8780-97f952a1df14",
     "title": "Tottemo! Luckyman",
@@ -19,17 +21,7 @@
     "banner": "https://m.media-amazon.com/images/M/MV5BYTI2OWFiZTAtYjIwNy00ZGIzLTgyZmItNWFkYzUyMzkxZDVkXkEyXkFqcGc@._V1_.jpg",
     "genres": "Action, Comedy, Superhero",
     "tags": "Tottemo! Luckyman , Luckyman , Luckyman Hindi Dub, Anicreator",
-    "status": "ongoing"
-  },
-  {
-    "id": "d5c0f217-3c02-427a-9049-50a8156338a4",
-    "title": "My Tiny Senpai",
-    "slug": "my-tiny-senpai",
-    "description": "Shinozaki starts his new job and is being taught by Katase, a tiny and kind senpai.",
-    "poster": "https://m.media-amazon.com/images/M/MV5BMWU4YmIyMjItNDZmNi00M2I3LTkxZjAtYTdhM2I0N2I1NzRhXkEyXkFqcGc@._V1_.jpg",
-    "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGQTxsTteYx41uN5BIJU2VPscClAbZh3eQ5GyajVb1Vg&s=10",
-    "genres": "Comedy , Romance , Slice of Life",
-    "tags": "Uchi no Kaisha no Chiisai Senpai no Hanashi",
-    "status": "completed"
+    "status": "ongoing",
+    "type": "anime"
   }
 ]
