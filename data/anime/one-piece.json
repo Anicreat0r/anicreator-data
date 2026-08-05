@@ -1,0 +1,30 @@
+{
+  "id": "1e947acb-8a2a-4b0b-b5de-26b69a92de9c",
+  "title": "One Piece",
+  "slug": "one-piece",
+  "description": "",
+  "poster": "https://m.media-amazon.com/images/M/MV5BMTNjNGU4NTUtYmVjMy00YjRiLTkxMWUtNzZkMDNiYjZhNmViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  "banner": "https://m.media-amazon.com/images/M/MV5BMTNjNGU4NTUtYmVjMy00YjRiLTkxMWUtNzZkMDNiYjZhNmViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  "genres": "Action,",
+  "tags": "One piece",
+  "status": "ongoing",
+  "seasons": [
+    {
+      "id": "3b8db665-3e8e-4981-b5fb-a7f1783d4a29",
+      "anime_id": "1e947acb-8a2a-4b0b-b5de-26b69a92de9c",
+      "season_number": 20,
+      "title": "",
+      "episodes": [
+        {
+          "id": "fa278257-91b0-4088-8a21-0938b46a4243",
+          "episode_number": 1,
+          "title": "Ep 1139",
+          "sub_url": "",
+          "dub_url": "https://anime-libary.blogspot.com/p/player.html?one-piece.html/ep1139",
+          "thumbnail": "",
+          "duration": ""
+        }
+      ]
+    }
+  ]
+}
