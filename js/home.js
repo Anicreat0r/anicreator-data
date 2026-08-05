@@ -4,11 +4,14 @@ const watch=e=>`watch.html?anime=${encodeURIComponent(e.anime_slug)}&season=${en
 const details=e=>`anime-details.html?anime=${encodeURIComponent(e.slug||e.id)}`;
 function latestCard(a){
   const movie=(a.type||'anime').toLowerCase()==='movie';
-  return `<a class="card" href="${details(a)}">
-    <img class="cover" src="${esc(a.poster||'')}" loading="lazy" alt="${esc(a.title||'')}" onerror="this.style.visibility='hidden'">
+  const slug=a.anime_slug||a.slug;
+  const title=a.anime_title||a.title;
+  const status=a.status||(movie?'Movie':'Anime');
+  return `<a class="card" href="anime-details.html?anime=${encodeURIComponent(slug)}">
+    <img class="cover" src="${esc(a.poster||'')}" loading="lazy" alt="${esc(title)}" onerror="this.style.visibility='hidden'">
     <div class="card-body">
-      <div class="card-title">${esc(a.title||'Untitled')}</div>
-      <div class="card-meta">${movie?'Movie':esc(a.status||'Anime')}</div>
+      <div class="card-title">${esc(title)}</div>
+      <div class="card-meta">${movie?'Movie':esc(status)}</div>
       <span class="card-badge">${movie?'MOVIE':'ANIME'}</span>
     </div>
   </a>`;

@@ -15,13 +15,13 @@
     <!-- FAVICON -->
     <link
         rel="icon"
-        type="image/png"
-        href="/20200620_200442(3).png"
+        type="image/jpeg"
+        href="/channels4_profile.jpg"
     >
 
     <link
         rel="apple-touch-icon"
-        href="/20200620_200442(3).png"
+        href="/channels4_profile.jpg"
     >
 
     <style>
@@ -110,6 +110,13 @@
 
             color:
                 var(--accent2);
+        }
+
+        .logo-img {
+            width: 28px;
+            height: 28px;
+            border-radius: 6px;
+            object-fit: cover;
         }
 
         nav {
@@ -668,9 +675,19 @@
             }
 
             .episode-grid {
+                display: flex;
+                flex-direction: row;
+                overflow-x: auto;
+                gap: 8px;
+                padding-bottom: 8px;
+                scroll-snap-type: x mandatory;
+                -webkit-overflow-scrolling: touch;
+            }
 
-                grid-template-columns:
-                    repeat(2, 1fr);
+            .episode-grid .episode {
+                flex: 0 0 auto;
+                width: 140px;
+                scroll-snap-align: start;
             }
 
             .watermark-background-image {
@@ -709,6 +726,7 @@
         class="logo"
         href="index.html"
     >
+        <img class="logo-img" src="/channels4_profile.jpg" alt="">
         Ani<span>creator</span>
     </a>
 
