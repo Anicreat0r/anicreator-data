@@ -8,7 +8,8 @@
     "banner": "https://a.storyblok.com/f/178900/960x540/47681acebc/bluelockepisodenagi_16x9_3840x2160.png/m/filters:quality(95)format(webp)",
     "genres": " Action, Drama, Sports",
     "tags": "Blue Lock The Movie EPISODE NAGI (2024) ",
-    "status": "ongoing"
+    "status": "ongoing",
+    "type": "movie"
   },
   {
     "id": "a4b44f90-10f7-4565-8780-97f952a1df14",
@@ -129,7 +130,8 @@
     "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy96fQMR6g1IEZif59IHwCOAhaRgqPc57Nc_KCfxDXDCjrPBiCBNvIYes&s=10",
     "genres": "Action, Adventure, Fantasy",
     "tags": "Overlord: Sei Oukoku-hen",
-    "status": "ongoing"
+    "status": "ongoing",
+    "type": "movie"
   },
   {
     "id": "4f009046-ec28-4c29-bd0c-5f31e7a54c86",

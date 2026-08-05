@@ -43,9 +43,9 @@ async function init(){
     if(!idxR.ok)throw Error('Could not load anime-index.json');
     const index=await idxR.json();
     // Latest Updates: every title in the catalog (anime + movies).
-    $('#latest').innerHTML=index.slice(0,12).map(latestCard).join('')||'<div class="state">No latest updates yet.</div>';
-    // Hero banner from the first entry.
-    setHero(index[0]);
+    $('#latest').innerHTML=index.slice().reverse().slice(0,12).map(latestCard).join('')||'<div class="state">No latest updates yet.</div>';
+    // Hero banner from the latest entry.
+    setHero(index[index.length-1]);
     // Random Episodes: build a pool of every playable episode across the catalog.
     const detailP=index.map(async a=>{
       try{
