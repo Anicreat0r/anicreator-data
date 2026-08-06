@@ -5,6 +5,7 @@ const esc = x => String(x ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt
 const watch = b => `watch.html?anime=${encodeURIComponent(b.anime_slug)}&season=${encodeURIComponent(b.season_number || 1)}&ep=${encodeURIComponent(b.episode_number || 1)}`;
 
 let list = [];
+let all = [];
 
 function card(b){
   return `<div class="card bmk-card">
@@ -20,7 +21,9 @@ function card(b){
 }
 
 function render(items){
-  list = items || [];
+  all = list = items || [];
+  const q = String($('#search').value || '').toLowerCase().trim();
+  list = all.filter(b => `${b.anime_title || ''} ${b.title || ''}`.toLowerCase().includes(q));
   $('#grid').innerHTML = list.length
     ? list.map((b, i) => card(b).replace('class="bmk-remove"', `class="bmk-remove" data-idx="${i}"`)).join('')
     : '<div class="state">No bookmarks yet. Hit ★ on any episode to save it.</div>';
@@ -41,5 +44,8 @@ $('#grid').addEventListener('click', async function(e){
 });
 
 $('#loading').classList.add('hidden');
+$('#search').addEventListener('input', () => render(all));
+$('#search').addEventListener('keydown', e => { if(e.key==='Enter') render(all); });
+$('#searchBtn').addEventListener('click', () => render(all));
 const unsub = subscribeBookmarks(render);
 window.addEventListener('unload', () => unsub && unsub());

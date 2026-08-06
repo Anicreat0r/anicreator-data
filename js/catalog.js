@@ -76,4 +76,6 @@ async function init(){
 }
 
 $('#search').oninput=e=>render(filtered(e.target.value));
+$('#search').onkeydown=e=>{if(e.key==='Enter')render(filtered(e.target.value))};
+$('#searchBtn').onclick=()=>render(filtered($('#search').value));
 init();
