@@ -28,7 +28,7 @@ function episodeCard(e){
 let pool=[];
 function shuffleRandom(){
   const shuffled=pool.slice().sort(()=>Math.random()-.5);
-  $('#random').innerHTML=shuffled.map(episodeCard).join('')||'<div class="state">No random episodes available.</div>';
+  $('#random').innerHTML=shuffled.slice(0,12).map(episodeCard).join('')||'<div class="state">No random episodes available.</div>';
 }
 function setHero(item){
   if(!item)return;
@@ -43,7 +43,7 @@ async function init(){
     if(!idxR.ok)throw Error('Could not load anime-index.json');
     const index=await idxR.json();
     // Latest Updates: every title in the catalog (anime + movies).
-    $('#latest').innerHTML=index.slice().reverse().slice(0,6).map(latestCard).join('')||'<div class="state">No latest updates yet.</div>';
+    $('#latest').innerHTML=index.slice().reverse().slice(0,12).map(latestCard).join('')||'<div class="state">No latest updates yet.</div>';
     // Hero banner from the latest entry.
     setHero(index[index.length-1]);
     // Random Episodes: build a pool of every playable episode across the catalog.
@@ -69,7 +69,5 @@ async function init(){
   }
 }
 $('#shuffle').onclick=shuffleRandom;
-const searchNow=()=>{const v=$('#globalSearch').value.trim();if(v)location.href=`anime.html?q=${encodeURIComponent(v)}`};
-$('#globalSearch').onkeydown=e=>{if(e.key==='Enter')searchNow()};
-$('#searchBtn').onclick=searchNow;
+$('#globalSearch').onkeydown=e=>{if(e.key==='Enter'&&e.target.value.trim())location.href=`anime.html?q=${encodeURIComponent(e.target.value.trim())}`};
 init();

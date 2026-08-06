@@ -27,14 +27,10 @@
         href="/channels4_profile.jpg"
     >
 
-<link
-            rel="stylesheet"
-            href="css/style.css"
-        >
-
-        <script type="importmap">
-            {"imports":{"@websim/websim-socket":"https://esm.websim.com/@websim/websim-socket"}}
-        </script>
+        <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
 
 
 </head>
@@ -69,14 +65,6 @@
 
         <a href="movie.html">
             Movie
-        </a>
-
-        <a href="bookmark.html">
-            Bookmarks
-        </a>
-
-        <a href="history.html">
-            History
         </a>
 
     </nav>
@@ -177,24 +165,6 @@
 
             </div>
 
-
-            <div id="watchTools" class="watch-tools">
-
-                <button
-                    id="bookmarkBtn"
-                    class="btn bookmark-btn"
-                >
-                    ☆ Save
-                </button>
-
-                <button
-                    id="shareBtn"
-                    class="btn"
-                >
-                    ↗ Share
-                </button>
-
-            </div>
 
             <div id="actions">
 
@@ -411,22 +381,6 @@ function renderPlayer() {
             "anime"
         ).toLowerCase() ===
         "movie";
-
-
-    /* BOOKMARK / HISTORY DATA */
-
-    window.__bookmarkData = {
-        anime_slug: anime.slug || anime.id,
-        anime_title: anime.title || "",
-        season_number: season.season_number,
-        episode_number: episode.episode_number,
-        title: episode.title || "",
-        thumbnail: episode.thumbnail || anime.poster || "",
-        type: isMovie ? "movie" : "anime"
-    };
-    window.dispatchEvent(
-        new Event("bookmark-data")
-    );
 
 
     document.title =
@@ -790,96 +744,6 @@ document
     );
 
 
-
-/* ==========================================
-   SHARE
-========================================= */
-
-$("#shareBtn")
-    .addEventListener(
-        "click",
-        function() {
-
-            const url =
-                window.location.href;
-
-            if (
-                navigator.share
-            ) {
-
-                navigator.share({
-                    title: document.title,
-                    url: url
-                }).catch(function(){});
-
-                return;
-
-            }
-
-            const feedback =
-                function() {
-
-                    const btn =
-                        $("#shareBtn");
-                    const text =
-                        btn.textContent;
-
-                    btn.textContent =
-                        "Copied!";
-
-                    setTimeout(
-                        function() {
-                            btn.textContent =
-                                text;
-                        },
-                        1500
-                    );
-
-                };
-
-            const fallback =
-                function() {
-
-                    const ta =
-                        document.createElement(
-                            "textarea"
-                        );
-                    ta.value =
-                        url;
-                    document.body
-                        .appendChild(ta);
-                    ta.select();
-                    try {
-                        document
-                            .execCommand("copy");
-                    }
-                    catch (e) {}
-                    ta.remove();
-                    feedback();
-
-                };
-
-            if (
-                navigator.clipboard
-            ) {
-
-                navigator.clipboard
-                    .writeText(url)
-                    .then(feedback)
-                    .catch(fallback);
-
-            }
-
-            else {
-
-                fallback();
-
-            }
-
-        }
-    );
-
-
 /* ==========================================
    KEYBOARD CONTROLS
 ========================================== */
@@ -1131,125 +995,9 @@ document.body.addEventListener('click', openPopunder);
 
 /* ==========================================
    START
-========================================= */
+========================================== */
 
 init();
-
-
-/* ==========================================
-   BOOKMARK
-========================================= */
-
-import(
-    "./js/bookmark.js"
-).then(
-
-    async function({ isBookmarked, toggleBookmark }) {
-
-        const btn =
-            $("#bookmarkBtn");
-
-        const history =
-            await import(
-                "./js/history.js"
-            );
-
-        const refresh = async function() {
-
-            const data =
-                window.__bookmarkData;
-
-            btn.disabled =
-                !data;
-
-            if (!data) {
-
-                return;
-
-            }
-
-            history.addHistory(
-                data
-            );
-
-            const saved =
-                await isBookmarked(
-                    data
-                );
-
-            btn.classList.toggle(
-                "saved",
-                saved
-            );
-
-            btn.textContent =
-                saved
-                    ? "★ Saved"
-                    : "☆ Save";
-
-        };
-
-        btn.addEventListener(
-            "click",
-            async function() {
-
-                const data =
-                    window.__bookmarkData;
-
-                if (
-                    !data ||
-                    btn.disabled
-                ) {
-
-                    return;
-
-                }
-
-                btn.disabled =
-                    true;
-
-                const now =
-                    await toggleBookmark(
-                        data
-                    );
-
-                if (
-                    now === null
-                ) {
-
-                    btn.disabled =
-                        false;
-
-                    return;
-
-                }
-
-                btn.classList.toggle(
-                    "saved",
-                    now
-                );
-
-                btn.textContent =
-                    now
-                        ? "★ Saved"
-                        : "☆ Save";
-
-                btn.disabled =
-                    false;
-
-            }
-        );
-
-        window.addEventListener(
-            "bookmark-data",
-            refresh
-        );
-
-        refresh();
-
-    }
-
-);
 
 </script>
 

@@ -41,12 +41,9 @@ nav{display:flex;gap:6px;color:var(--muted)}
 nav a{padding:7px 14px;border-radius:var(--radius-sm);font-size:14px;font-weight:500;transition:background .15s,color .15s}
 nav a:hover{background:var(--panel);color:var(--text)}
 nav a.active{background:var(--panel);color:var(--text);font-weight:600}
-.search-box{margin-left:auto;display:flex;align-items:center;gap:6px}
-.search{min-width:0;width:200px;padding:9px 13px;background:var(--panel);border:1px solid var(--border);border-radius:20px;color:var(--text);outline:none;font-size:14px;transition:border-color .2s,width .2s}
+.search{margin-left:auto;min-width:0;width:200px;padding:9px 13px;background:var(--panel);border:1px solid var(--border);border-radius:20px;color:var(--text);outline:none;font-size:14px;transition:border-color .2s,width .2s}
 .search:focus{border-color:var(--accent);width:260px}
 .search::placeholder{color:var(--muted)}
-.search-btn{flex-shrink:0;display:flex;align-items:center;justify-content:center;width:36px;height:36px;border:1px solid var(--border);border-radius:50%;background:var(--panel2);color:var(--text);cursor:pointer;transition:background .2s,border-color .2s}
-.search-btn:hover{background:var(--panel3);border-color:var(--accent)}
 
 /* container */
 .container{width:min(1180px,92%);margin:0 auto;padding:28px 0 70px}
@@ -122,18 +119,6 @@ nav a.active{background:var(--panel);color:var(--text);font-weight:600}
 #actions button:hover{background:var(--panel3);border-color:var(--accent)}
 #actions button:disabled{opacity:.35;cursor:not-allowed}
 #actions button:disabled:hover{background:var(--panel2);border-color:var(--border)}
-.watch-tools{display:flex;gap:7px;align-items:flex-start}
-.watch-tools .btn{padding:8px 16px;border:1px solid var(--border);border-radius:20px;background:var(--panel2);color:var(--text);cursor:pointer;font-size:12px;font-weight:600;white-space:nowrap;flex:0 0 auto}
-.watch-tools .btn:hover{background:var(--panel3);border-color:var(--accent)}
-.bookmark-btn{flex-shrink:0}
-.bookmark-btn.saved{background:var(--accent);border-color:var(--accent);color:#fff}
-.bookmark-btn.saved:hover{background:var(--accent3);border-color:var(--accent3)}
-.bmk-card{position:relative}
-.bmk-link{display:block}
-.bmk-link .cover,.bmk-link .episode-thumb{width:100%}
-.bmk-remove{position:absolute;top:8px;right:8px;width:28px;height:28px;border:none;border-radius:50%;background:rgba(8,8,13,.72);color:#fff;font-size:14px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background .15s,transform .15s;z-index:2}
-.bmk-remove:hover{background:#ff5a5a;transform:scale(1.08)}
-.bmk-remove:disabled{opacity:.5;cursor:wait}
 .tabs{display:flex;gap:7px;margin:18px 0}
 .lang{padding:8px 16px;border:1px solid var(--border);border-radius:20px;background:var(--panel2);color:var(--text);cursor:pointer;font-size:12px;font-weight:600;transition:background .2s,border-color .2s}
 .lang:hover{border-color:var(--accent)}
@@ -156,15 +141,13 @@ footer{text-align:center;color:#555;border-top:1px solid var(--border);padding:2
   .logo-img{width:25px;height:25px}
   nav{gap:4px;order:2;flex:1 1 auto}
   nav a{padding:5px 10px;font-size:12px}
-  .search-box{order:3;width:100%;margin:6px 0 2px}
-  .search-box .search{width:100%}
+  .search{order:3;width:100%;margin:6px 0 2px}
   .search:focus{width:100%}
   .container{width:99%;padding:16px 0 60px}
   .hero,.page-title{padding:28px 22px;border-radius:var(--radius)}
   .hero h1,.page-title h1{font-size:26px}
   .hero p,.page-title p{font-size:14px}
   .card-grid{grid-template-columns:repeat(2,1fr);gap:12px}
-  #random{grid-template-columns:1fr}
   .details{flex-direction:column;gap:18px;padding:20px}
   .poster{width:130px;height:195px}
   .details h1{font-size:24px}
@@ -177,9 +160,6 @@ footer{text-align:center;color:#555;border-top:1px solid var(--border);padding:2
   #actions button{flex:1}
   .episode-grid{grid-template-columns:repeat(2,1fr);gap:8px}
   #season{width:100%;margin:8px 0 0}
-  .watch-tools{align-self:flex-start}
-  .watch-tools .btn{padding:8px 16px;font-size:12px}
-  #actions button{padding:7px 12px;font-size:12px}
   .section-head{flex-wrap:wrap;gap:8px}
 }
 @media(max-width:480px){
