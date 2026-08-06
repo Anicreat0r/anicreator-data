@@ -1,52 +1,145 @@
-import { WebsimSocket } from '@websim/websim-socket';
+// bookmark.js
+// Anicreator Bookmark System (Cloudflare / Static Version)
 
-export const room = new WebsimSocket();
+const STORAGE_KEY = "anicreator_bookmarks";
 
-let uid = null;
-export async function currentUserId(){
-  if(uid) return uid;
-  try{
-    const inst = window.websim.getCurrentUser || window.websim.getUser;
-    const u = inst ? await inst.call(window.websim) : await window.websim.getUser();
-    uid = (u && (u.id || u.user_id)) || 'anon';
-  }catch(_){ uid = 'anon'; }
-  return uid;
-}
+/* ===========================
+   Helpers
+=========================== */
 
-const col = () => room.collection('bookmark');
-
-export function bookmarkId(userId, data){
-  return `${userId}|${data.anime_slug}|s${data.season_number}|e${data.episode_number}`;
-}
-
-export async function isBookmarked(data){
-  try{
-    if(!data) return false;
-    const id = bookmarkId(await currentUserId(), data);
-    const list = await col().filter({ id }).getList();
-    return !!list[0];
-  }catch(_){ return false; }
-}
-
-/* returns true if now bookmarked, false if unbookmarked, null on error */
-export async function toggleBookmark(data){
-  try{
-    const userId = await currentUserId();
-    const id = bookmarkId(userId, data);
-    const saved = await isBookmarked(data);
-    if(saved){
-      await col().delete(id);
-      return false;
+function getBookmarks() {
+    try {
+        const data = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
+        return Array.isArray(data) ? data : [];
+    } catch (e) {
+        console.error("Bookmark Load Error:", e);
+        return [];
     }
-    await col().upsert({ id, user_id: userId, ...data });
+}
+
+function saveBookmarks(bookmarks) {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(bookmarks));
+}
+
+function createBookmarkId(data) {
+    return `${data.anime_slug}|s${data.season_number}|e${data.episode_number}`;
+}
+
+function notify() {
+    window.dispatchEvent(new Event("bookmarksUpdated"));
+}
+
+/* ===========================
+   Compatibility
+=========================== */
+
+export const room = null;
+
+export async function currentUserId() {
+    return "local-user";
+}
+
+/* ===========================
+   Public API
+=========================== */
+
+export async function savedBookmarks() {
+    return getBookmarks();
+}
+
+export async function isBookmarked(data) {
+    if (!data) return false;
+
+    const id = createBookmarkId(data);
+
+    return getBookmarks().some(item => item.id === id);
+}
+
+export async function toggleBookmark(data) {
+
+    if (!data) return false;
+
+    const bookmarks = getBookmarks();
+    const id = createBookmarkId(data);
+
+    const index = bookmarks.findIndex(item => item.id === id);
+
+    // Remove bookmark
+    if (index !== -1) {
+
+        bookmarks.splice(index, 1);
+
+        saveBookmarks(bookmarks);
+
+        notify();
+
+        return false;
+    }
+
+    // Add bookmark
+    bookmarks.unshift({
+
+        id,
+
+        anime_slug: data.anime_slug || "",
+
+        anime_title: data.anime_title || "",
+
+        title: data.title || data.episode_title || "",
+
+        poster:
+            data.poster ||
+            data.thumbnail ||
+            data.anime_image ||
+            "",
+
+        thumbnail:
+            data.thumbnail ||
+            data.poster ||
+            data.episode_thumb ||
+            "",
+
+        season_number: Number(data.season_number || 1),
+
+        episode_number: Number(data.episode_number || 1),
+
+        type: data.type || "anime",
+
+        url:
+            data.url ||
+            `watch.html?id=${data.anime_slug}&season=${data.season_number}&ep=${data.episode_number}`,
+
+        updated_at: Date.now()
+
+    });
+
+    saveBookmarks(bookmarks);
+
+    notify();
+
     return true;
-  }catch(_){ return null; }
 }
 
-export function savedBookmarks(){
-  return currentUserId().then(userId => col().filter({ user_id: userId }).getList());
+export function clearBookmarks() {
+
+    localStorage.removeItem(STORAGE_KEY);
+
+    notify();
 }
 
-export function subscribeBookmarks(cb){
-  return currentUserId().then(() => col().filter({ user_id: uid }).subscribe(cb));
+export function subscribeBookmarks(callback) {
+
+    if (typeof callback !== "function") return () => {};
+
+    callback(getBookmarks());
+
+    const refresh = () => callback(getBookmarks());
+
+    window.addEventListener("storage", refresh);
+    window.addEventListener("bookmarksUpdated", refresh);
+
+    return () => {
+        window.removeEventListener("storage", refresh);
+        window.removeEventListener("bookmarksUpdated", refresh);
+    };
 }

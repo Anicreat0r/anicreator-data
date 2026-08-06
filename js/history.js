@@ -1,42 +1,92 @@
-import { WebsimSocket } from '@websim/websim-socket';
+// history.js
+// Cloudflare / Static Site version using localStorage
 
-const room = new WebsimSocket();
-const col = () => room.collection('history');
+const STORAGE_KEY = "anicreator_history";
 
-let uid = null;
-async function currentUserId(){
-  if(uid) return uid;
-  try{
-    const inst = window.websim.getCurrentUser || window.websim.getUser;
-    const u = inst ? await inst.call(window.websim) : await window.websim.getUser();
-    uid = (u && (u.id || u.user_id)) || 'anon';
-  }catch(_){ uid = 'anon'; }
-  return uid;
+/* ---------- Helpers ---------- */
+
+function getHistory() {
+  try {
+    return JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
+  } catch {
+    return [];
+  }
 }
 
-function entryId(userId, data){
-  return `${userId}|${data.anime_slug}|s${data.season_number}|e${data.episode_number}`;
+function saveHistory(list) {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(list));
 }
 
-/* record a watch; re-watching bumps it to the top */
-export async function addHistory(data){
-  try{
-    if(!data || !data.anime_slug) return;
-    const userId = await currentUserId();
-    const id = entryId(userId, data);
-    try{ const prev = await col().filter({ id }).getList(); if(prev[0]) await col().delete(id); }catch(_){}
-    await col().upsert({ id, user_id: userId,
-      anime_slug: data.anime_slug,
-      anime_title: data.anime_title || '',
-      season_number: data.season_number || 1,
-      episode_number: data.episode_number || 1,
-      title: data.title || '',
-      thumbnail: data.thumbnail || data.poster || '',
-      type: data.type || 'anime'
-    });
-  }catch(_){}
+function entryId(data) {
+  return `${data.anime_slug}|s${data.season_number}|e${data.episode_number}`;
 }
 
-export function subscribeHistory(cb){
-  return currentUserId().then(() => col().filter({ user_id: uid }).subscribe(cb));
+/* ---------- Compatibility ---------- */
+
+export async function currentUserId() {
+  return "local-user";
+}
+
+/* ---------- API ---------- */
+
+export async function addHistory(data) {
+
+  if (!data || !data.anime_slug) return;
+
+  let list = getHistory();
+
+  const id = entryId(data);
+
+  // Remove previous occurrence
+  list = list.filter(item => item.id !== id);
+
+  // Add newest to top
+  list.unshift({
+    id,
+    anime_slug: data.anime_slug,
+    anime_title: data.anime_title || "",
+    season_number: data.season_number || 1,
+    episode_number: data.episode_number || 1,
+    title: data.title || "",
+    thumbnail: data.thumbnail || data.poster || "",
+    type: data.type || "anime",
+    updated_at: Date.now()
+  });
+
+  // Keep latest 100 entries
+  if (list.length > 100) {
+    list = list.slice(0, 100);
+  }
+
+  saveHistory(list);
+
+  window.dispatchEvent(new Event("historyUpdated"));
+}
+
+export async function getHistoryList() {
+  return getHistory();
+}
+
+export function subscribeHistory(callback) {
+
+  callback(getHistory());
+
+  function refresh() {
+    callback(getHistory());
+  }
+
+  window.addEventListener("storage", refresh);
+  window.addEventListener("historyUpdated", refresh);
+
+  return () => {
+    window.removeEventListener("storage", refresh);
+    window.removeEventListener("historyUpdated", refresh);
+  };
+}
+
+export function clearHistory() {
+
+  localStorage.removeItem(STORAGE_KEY);
+
+  window.dispatchEvent(new Event("historyUpdated"));
 }
