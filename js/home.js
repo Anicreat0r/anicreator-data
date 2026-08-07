@@ -47,21 +47,26 @@ async function init(){
     // Hero banner from the newest entry.
     setHero(index[0]);
     // Random Episodes: build a pool of every playable episode across the catalog.
-    const detailP=index.map(async a=>{
-      try{
-        const r=await fetch(`data/anime/${encodeURIComponent(a.slug||a.id)}.json`,{cache:'no-cache'});
-        if(!r.ok)return [];
-        const d=await r.json();
-        const eps=[];
-        for(const s of (d.seasons||[])){
-          for(const e of (s.episodes||[])){
-            eps.push({anime_slug:d.slug||d.id,anime_title:d.title,season:s.season_number||1,episode_number:e.episode_number||1,title:e.title||'',thumbnail:e.thumbnail||d.poster,poster:d.poster});
-          }
+    const loadOne=async a=>{
+      const url=`data/anime/${encodeURIComponent(a.slug||a.id)}.json`;
+      let d=null;
+      for(let attempt=0;attempt<3;attempt++){
+        try{
+          const r=await fetch(url,{cache:'reload'});
+          if(r.ok){d=await r.json();break;}
+        }catch(err){/* keep trying */}
+        if(attempt<2)await new Promise(res=>setTimeout(res,200*Math.pow(2,attempt)));
+      }
+      if(!d)return [];
+      const eps=[];
+      for(const s of (d.seasons||[])){
+        for(const e of (s.episodes||[])){
+          eps.push({anime_slug:d.slug||d.id,anime_title:d.title,season:s.season_number||1,episode_number:e.episode_number||1,title:e.title||'',thumbnail:e.thumbnail||d.poster,poster:d.poster});
         }
-        return eps;
-      }catch(err){return [];}
-    });
-    pool=(await Promise.all(detailP)).flat();
+      }
+      return eps;
+    };
+    pool=(await Promise.all(index.map(loadOne))).flat();
     shuffleRandom();
   }catch(e){
     $('#latest').innerHTML='';
