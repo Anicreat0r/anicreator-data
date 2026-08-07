@@ -1,574 +1,574 @@
 {
-  "id": "a4b44f90-10f7-4565-8780-97f952a1df14",
-  "title": "Tottemo! Luckyman Hindi Dub",
-  "slug": "tottemo-luckyman",
-  "description": "The series follows the adventures of a bizarre superhero named Luckyman and his fights against various aliens and other enemies threatening the Earth.",
+  "id": "eb02fe8a-523e-4805-850b-1c60990d67cf",
+  "title": "Tottemo! Luckyman Hindi Dub | Anicreator.in",
+  "slug": "tottemo-luckyman-hindi-dub",
+  "description": "Yōichi Tsuitenai is the unluckiest boy in his hometown. One day, his luck truly ran out when he was crushed by an alien spaceship, killing him. But in this time of need, he was discovered by Luckyman, a cosmic superhero, who gives him the superpower of being extremely lucky. Now Yōichi, as Luckyman, must defend the Earth from aliens invading to conquer it, with the help of his sidekick, Endeavorman, their friend Superstarman, and three others, Victoryman, Friendshipman, and Geniusman.",
   "poster": "https://m.media-amazon.com/images/M/MV5BNDAzNzg1NzAtZDdlZS00NzE1LTkwNDctMDIzYzAwNDUwNGZjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-  "banner": "https://m.media-amazon.com/images/M/MV5BYTI2OWFiZTAtYjIwNy00ZGIzLTgyZmItNWFkYzUyMzkxZDVkXkEyXkFqcGc@._V1_.jpg",
+  "banner": "https://m.media-amazon.com/images/M/MV5BNDAzNzg1NzAtZDdlZS00NzE1LTkwNDctMDIzYzAwNDUwNGZjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
   "genres": "Action, Comedy, Superhero",
   "tags": "Tottemo! Luckyman , Luckyman , Luckyman Hindi Dub, Anicreator",
   "type": "anime",
   "status": "ongoing",
   "created_at": "",
-  "updated_at": "2026-08-07T04:49:21.455Z",
+  "updated_at": "2026-08-07T05:48:55.404Z",
   "seasons": [
     {
-      "id": "95387498-5cf2-4491-ba25-93dd025882c7",
-      "anime_id": "a4b44f90-10f7-4565-8780-97f952a1df14",
+      "id": "614e6962-bdf5-4099-a5c1-dda9963d0dae",
+      "anime_id": "eb02fe8a-523e-4805-850b-1c60990d67cf",
       "season_number": 1,
       "title": "",
-      "created_at": "2026-08-05T08:34:32.193Z",
-      "updated_at": "2026-08-05T08:34:32.193Z",
+      "created_at": "2026-08-07T05:50:12.824Z",
+      "updated_at": "2026-08-07T05:50:12.824Z",
       "episodes": [
         {
-          "id": "831b6801-0ad1-4c8d-9187-d6bffaccf0c4",
+          "id": "d8408f0e-8b5e-4596-a14d-49774a852c20",
           "episode_number": 1,
           "title": "Luckyman S01E01",
           "sub_url": "https://drive.google.com/file/d/1YuSlG-Rq3gzQJPdid7YtZxkesQtKXiRQ/preview",
-          "dub_url": "https://drive.google.com/file/d/1YuSlG-Rq3gzQJPdid7YtZxkesQtKXiRQ/preview",
+          "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "",
-          "updated_at": "2026-08-07T04:58:41.607Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "7c1d9293-e6e2-43fc-ab79-282da44c389d",
+          "id": "bce36b11-ba7e-4307-ba2e-fa13ee2ea52e",
           "episode_number": 2,
           "title": "Luckyman S01E02",
           "sub_url": "https://drive.google.com/file/d/1wYGADr0CsPFMYwaaXlTeG0wOOAIFGoPJ/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:36:26.233Z",
-          "updated_at": "2026-08-05T08:36:26.233Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "a647e30c-3efe-4144-a931-a51b00fc6a04",
+          "id": "cbcf2a19-8ea6-4ef9-8b2f-0f5f126f0f71",
           "episode_number": 3,
           "title": "Luckyman S01E03",
           "sub_url": "https://drive.google.com/file/d/1Q-cVdB2EXW8wEqcGlHTr_yISu6JOd_hz/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:36:26.233Z",
-          "updated_at": "2026-08-05T08:36:26.233Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "7c3fced7-f345-49bf-9060-6b51dd6e014e",
+          "id": "5966386f-9844-4eae-ad55-4c3c5655d9c0",
           "episode_number": 4,
           "title": "Luckyman S01E04",
           "sub_url": "https://drive.google.com/file/d/1cq3TNaIvwWhdSiecOWA7T4YlbllufOkT/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:36:26.233Z",
-          "updated_at": "2026-08-05T08:36:26.233Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "a56d019f-d4a0-4bc7-b2e0-02c77f5661c1",
+          "id": "109d9262-8e88-421e-b01f-c307778d84ee",
           "episode_number": 5,
           "title": "Luckyman S01E05",
           "sub_url": "https://drive.google.com/file/d/1kGC0Tvy5kHMh2V0vB_U8Oom4bQsHuQ0d/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:36:26.233Z",
-          "updated_at": "2026-08-05T08:36:26.233Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "53f3ecad-acc7-4bf3-93f6-c5f24dd7645c",
+          "id": "810c6631-473d-4243-a040-3fa41a6539d6",
           "episode_number": 6,
           "title": "Luckyman S01E06",
           "sub_url": "https://drive.google.com/file/d/1uSlOw6y3yw-luq3WWM0VvoANl9E617Wd/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:36:26.233Z",
-          "updated_at": "2026-08-05T08:36:26.233Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "16adf6c6-e5c8-47df-8115-5e60ed0803e1",
+          "id": "d8835c00-0ef4-4ac4-bd29-c5513384ed18",
           "episode_number": 7,
           "title": "Luckyman S01E07",
           "sub_url": "https://drive.google.com/file/d/1IZrvqiYoHPil-EZ1sDS0KPkGMaKbcsZi/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:36:26.233Z",
-          "updated_at": "2026-08-05T08:36:26.233Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "01bc0b9c-67a2-430b-8372-9f3c5c2735ec",
+          "id": "64a9ee2d-b031-443c-bf1b-a9450f644aed",
           "episode_number": 8,
           "title": "Luckyman S01E08",
           "sub_url": "https://drive.google.com/file/d/1uInrxA5wfPc5FxadcbjqrTWYNfu6V_oS/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:36:26.233Z",
-          "updated_at": "2026-08-05T08:36:26.233Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "d8b07f03-4241-4a56-a2a8-4007d2c11ebd",
+          "id": "2fc4c5c2-4a9b-49f9-8848-5bdb96db7c5c",
           "episode_number": 9,
           "title": "Luckyman S01E09",
           "sub_url": "https://drive.google.com/file/d/1TxB6P0jbLhleJ632mRDYlgRcokOHu_sH/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:36:26.233Z",
-          "updated_at": "2026-08-05T08:36:26.233Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "bf42b3c3-3065-4257-baa7-fc1f079a9b51",
+          "id": "cf887ebe-4957-4575-bf4b-bc39d729ac7c",
           "episode_number": 10,
           "title": "Luckyman S01E10",
           "sub_url": "https://drive.google.com/file/d/1IzrdfYob_sSDoH74NmR8O9K-qcEc4iVv/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:36:26.233Z",
-          "updated_at": "2026-08-05T08:36:26.233Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "8e6c79d5-e52c-4be9-86db-687b8f6458b6",
+          "id": "e805f65b-53cb-47a5-addf-123d7dcaefdb",
           "episode_number": 11,
           "title": "Luckyman S01E11",
           "sub_url": "https://drive.google.com/file/d/1H7qX_VZp-y0X8UZ_LBYXMhAVqW8d05Sn/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:36:26.233Z",
-          "updated_at": "2026-08-05T08:36:26.233Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "09bc7a4b-9e55-40a9-b11b-525506abcb88",
+          "id": "a64d6c22-4438-4c8c-88aa-398c8a58c320",
           "episode_number": 12,
           "title": "Luckyman S01E12",
           "sub_url": "https://drive.google.com/file/d/1QlwJA5pZuJCmSMOU3n5o7QeC57Jyb76P/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:36:26.233Z",
-          "updated_at": "2026-08-05T08:36:26.233Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "7cc7d821-a7e3-4b4d-9ab0-8601a6be9ac0",
+          "id": "267c1ed7-73e1-4cdb-99e6-bc752c099316",
           "episode_number": 13,
           "title": "Luckyman S01E13",
           "sub_url": "https://drive.google.com/file/d/1cXJ1SFWzJVWgglJKkJ3CKEDDR8a9Wu92/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:36:26.233Z",
-          "updated_at": "2026-08-05T08:36:26.233Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "4967e294-f9e2-4198-bb46-b7295bebc2ac",
+          "id": "45c48339-be61-461b-a807-538981abf61b",
           "episode_number": 14,
           "title": "Luckyman S01E14",
           "sub_url": "https://drive.google.com/file/d/16-hPzTdsmjwodskk1r1w5qTMeFyoB0bf/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:36:26.233Z",
-          "updated_at": "2026-08-05T08:36:26.233Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "6d6bec8b-9672-46ca-bf17-960c59c4756f",
+          "id": "79b0064e-8d04-499a-8613-9075d249232e",
           "episode_number": 15,
           "title": "Luckyman S01E15",
           "sub_url": "https://drive.google.com/file/d/1teiZgJg9IY7vx6I4uG2AmJncBcM4HO9N/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:36:26.233Z",
-          "updated_at": "2026-08-05T08:36:26.233Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "a988b94d-06f8-420b-afd8-f9afbb477885",
+          "id": "7464cae7-1ab0-4abd-a815-27de8ad72497",
           "episode_number": 16,
           "title": "Luckyman S01E16",
           "sub_url": "https://drive.google.com/file/d/1VTFGh9VwY2oT_zulRGFi8xEnOMgggKn5/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:36:26.233Z",
-          "updated_at": "2026-08-05T08:36:26.233Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "30c979e3-4205-495b-bf71-26bafe4df5a9",
+          "id": "a2f9c84b-91f1-425a-8d21-5d00dfbe0929",
           "episode_number": 17,
           "title": "Luckyman S01E17",
           "sub_url": "https://drive.google.com/file/d/1Ks-vD1_quuwvtNAYGhIibk2SwshU_Mok/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:36:26.233Z",
-          "updated_at": "2026-08-05T08:36:26.233Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "2550c720-32e1-499c-94fd-386b3bc3e3c0",
+          "id": "b7581ef5-0859-4f9e-a4ca-d4923c38bf82",
           "episode_number": 18,
           "title": "Luckyman S01E18",
           "sub_url": "https://drive.google.com/file/d/1i_en-qYNqO1Su5pGLe-nz4hVZ2nJyQh8/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:36:26.233Z",
-          "updated_at": "2026-08-05T08:36:26.233Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "7fbd89da-0a73-4892-a0f2-4718d96cc55a",
+          "id": "3c1e1987-2995-48b2-8951-1b5fde917fa5",
           "episode_number": 19,
           "title": "Luckyman S01E19",
           "sub_url": "https://drive.google.com/file/d/19z_xwmqt8fKLBl3ZB9f_ZrltgJY6WEoh/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:36:26.233Z",
-          "updated_at": "2026-08-05T08:36:26.233Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "78f0a795-6515-4beb-9b7b-d0b6546495f0",
+          "id": "0d320a91-72b8-4b01-916f-6c39f4e13d09",
           "episode_number": 20,
           "title": "Luckyman S01E20",
           "sub_url": "https://drive.google.com/file/d/1m3u7PT1e-vngKdmV3xUaLVASVk9lWuYC/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:36:26.233Z",
-          "updated_at": "2026-08-05T08:36:26.233Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "e499eb05-3318-4ae3-9791-20d63562bf23",
+          "id": "860e9c71-2d3a-41a5-9583-236baab2ac17",
           "episode_number": 21,
           "title": "Luckyman S01E21",
           "sub_url": "https://drive.google.com/file/d/1JHz702D82q7c8lH_sq-p1Afaw3g4ugvW/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:36:26.233Z",
-          "updated_at": "2026-08-05T08:36:26.233Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "cb8d086c-766d-49d8-be28-afd27a3708f1",
+          "id": "fd05b490-1e7e-4764-91db-6fb23df5620f",
           "episode_number": 22,
           "title": "Luckyman S01E22",
           "sub_url": "https://drive.google.com/file/d/1bpOh2O91iOaIyHvJy57X94lkY8ZxVzun/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:36:26.233Z",
-          "updated_at": "2026-08-05T08:36:26.233Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "b49da57a-fc28-4c99-a015-9fbee4313517",
+          "id": "abceda4a-396a-45da-9d0d-a89a21041d5d",
           "episode_number": 23,
           "title": "Luckyman S01E23",
           "sub_url": "https://drive.google.com/file/d/11uX5e4cadIeGbpQvVxwsl9QKJ9Aol1au/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:36:26.233Z",
-          "updated_at": "2026-08-05T08:36:26.233Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "0ccd6609-689f-4407-b887-da4c35ae47b3",
+          "id": "975cf943-7150-4447-8260-f620c2877355",
           "episode_number": 24,
           "title": "Luckyman S01E24",
           "sub_url": "https://drive.google.com/file/d/171gk0sbvnuYjHviuanyIKXQt8TW8vLk1/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:36:26.233Z",
-          "updated_at": "2026-08-05T08:36:26.233Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "6184665d-a62e-48bb-a7a3-04776938f57c",
+          "id": "b614fa6b-09c9-4d8f-937c-8b18aa4c5b2a",
           "episode_number": 25,
           "title": "Luckyman S01E25",
           "sub_url": "https://drive.google.com/file/d/1-uw4cQBoXmrktFXJpCYZSowoR1xvaNlQ/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:36:26.233Z",
-          "updated_at": "2026-08-05T08:36:26.233Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "58801c50-35b3-44a4-8ff9-d86c14a5af88",
+          "id": "68e9bb8c-e2e2-4f25-b814-27e5f60a42f6",
           "episode_number": 26,
           "title": "Luckyman S01E26",
           "sub_url": "https://drive.google.com/file/d/1bdacnBl06MzZQaTyVk01jIss8KS05b-0/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:39:06.959Z",
-          "updated_at": "2026-08-05T08:39:06.959Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "a7ffffb7-5284-4f6b-9970-74b5ab90b669",
+          "id": "f4ee529f-52dc-4498-bb65-d2c6ae91958b",
           "episode_number": 27,
           "title": "Luckyman S01E27",
           "sub_url": "https://drive.google.com/file/d/1sVKd8V0SXubwxNGqaex5zqQWa1zLCV7k/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:39:06.959Z",
-          "updated_at": "2026-08-05T08:39:06.959Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "6d5bc36c-404b-4f55-ac36-13f9aa402ff8",
+          "id": "e8fcb1a7-643c-4886-bf04-6b62cefac534",
           "episode_number": 28,
           "title": "Luckyman S01E28",
           "sub_url": "https://drive.google.com/file/d/1j9Hi0XdDvWpSjLUWJjzG_U9fstcNzocO/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:39:06.959Z",
-          "updated_at": "2026-08-05T08:39:06.959Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "e711008b-05d8-4ba5-a04e-3cdefac24a0c",
+          "id": "88c4003c-1e42-4f56-87be-c3261e8e34e1",
           "episode_number": 29,
           "title": "Luckyman S01E29",
           "sub_url": "https://drive.google.com/file/d/1RLzBzmvuR2Gm8h94oxDXgGUJksVW10Bi/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:39:06.959Z",
-          "updated_at": "2026-08-05T08:39:06.959Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "93b2ca3f-2845-4f4b-bc0b-86258b45e38f",
+          "id": "4929b863-10a8-4de1-8bea-3ec3097abb5d",
           "episode_number": 30,
           "title": "Luckyman S01E30",
           "sub_url": "https://drive.google.com/file/d/1vFH2UsSgUQJzAMLYnFP1yY_nhWdiz96e/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:39:06.959Z",
-          "updated_at": "2026-08-05T08:39:06.959Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "5e8441a3-e78b-4657-b208-8d45abda33dd",
+          "id": "9aaccb8b-de60-4a35-8a10-8eba8c3d5904",
           "episode_number": 31,
           "title": "Luckyman S01E31",
           "sub_url": "https://drive.google.com/file/d/1225OCD2nXZxSybh2cfOFTOqKqySAF2s4/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:39:06.959Z",
-          "updated_at": "2026-08-05T08:39:06.959Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "8c896ce7-8cb5-4e30-8745-9242f5306001",
+          "id": "d8ba4d97-2533-4edd-9698-373ea5792a2f",
           "episode_number": 32,
           "title": "Luckyman S01E32",
           "sub_url": "https://drive.google.com/file/d/1Bi4mw8m5jz7Zeku2V1CeKsS30megDDrd/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:39:06.959Z",
-          "updated_at": "2026-08-05T08:39:06.959Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "bd61ff95-bf79-4d88-9aba-dda062e7332d",
+          "id": "dca94d2b-a235-463c-9aea-20f686ca17ab",
           "episode_number": 33,
           "title": "Luckyman S01E33",
           "sub_url": "https://drive.google.com/file/d/1MPQTBNmcvxUIDffF6_cBIh7l--1f2f37/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:39:06.959Z",
-          "updated_at": "2026-08-05T08:39:06.959Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "6bca22d7-b6ba-473d-af1d-74c9443685fc",
+          "id": "7ab2618d-3ca2-4806-81cf-1d7d17bbd33a",
           "episode_number": 34,
           "title": "Luckyman S01E34",
           "sub_url": "https://drive.google.com/file/d/1rcNlkjYkXqnY317Lfus2drMLi4GyPMlt/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:39:06.959Z",
-          "updated_at": "2026-08-05T08:39:06.959Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "77529e1c-8c09-48d1-a82f-585eeeb4edad",
+          "id": "7de8ad90-6952-488f-b089-d085d52e7ece",
           "episode_number": 35,
           "title": "Luckyman S01E35",
           "sub_url": "https://drive.google.com/file/d/15BYhd2M9O9kTcqiU_wk9F-ffsrfXPSDY/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:39:06.959Z",
-          "updated_at": "2026-08-05T08:39:06.959Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "2bd7ee1a-5376-449f-b8d1-ac1f2b7b6383",
+          "id": "a0fd3990-7fb0-483d-8caa-52d5a75b146a",
           "episode_number": 36,
           "title": "Luckyman S01E36",
           "sub_url": "https://drive.google.com/file/d/1Em9Pc9Df2U2OoHmAlozLxDn-Ex20hwaS/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:39:06.959Z",
-          "updated_at": "2026-08-05T08:39:06.959Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "acbc630f-c5af-413b-8f67-fd1c0bbcd93b",
+          "id": "0aa9818a-3d44-470d-9108-e9247541927a",
           "episode_number": 37,
           "title": "Luckyman S01E37",
           "sub_url": "https://drive.google.com/file/d/1y4-lHbQ6xs1FXoRVMP8UrqEMekuJc9TP/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:39:06.959Z",
-          "updated_at": "2026-08-05T08:39:06.959Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "5d07237c-0474-4989-b35f-0fdc166a51ab",
+          "id": "17d54260-80c9-4753-992d-cd31d85c7548",
           "episode_number": 38,
           "title": "Luckyman S01E38",
           "sub_url": "https://drive.google.com/file/d/1uOyDn49Vi1AJ7816v3lDq2XiYws83Hw9/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:39:06.959Z",
-          "updated_at": "2026-08-05T08:39:06.959Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "1c3f2f6d-7cfe-457b-a47a-ff30ba89b626",
+          "id": "c7bfa156-bd41-4ba5-957b-b009b83b4399",
           "episode_number": 39,
           "title": "Luckyman S01E39",
           "sub_url": "https://drive.google.com/file/d/1Bwj8yzBhSBDrCdyenRDasqTiJskHqG_b/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:39:06.959Z",
-          "updated_at": "2026-08-05T08:39:06.959Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "4b635aa1-d0d6-4b5d-bfc7-b21129b179ce",
+          "id": "28203bf9-d3ae-4102-8324-1ea7ac723a68",
           "episode_number": 40,
           "title": "Luckyman S01E40",
           "sub_url": "https://drive.google.com/file/d/1Y1doJbDrLfEnu7uPuZ5IVB9bcEOVn_Dl/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:39:06.959Z",
-          "updated_at": "2026-08-05T08:39:06.959Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "347f1bd6-2628-4822-96a8-08536d395b50",
+          "id": "844c7142-6c93-409b-92f0-9f19cfc3721f",
           "episode_number": 41,
           "title": "Luckyman S01E41",
           "sub_url": "https://drive.google.com/file/d/1-m1VK9l2j8HfN93f_Z6_H7edSjKkE_at/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:39:06.959Z",
-          "updated_at": "2026-08-05T08:39:06.959Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "12970b23-3f6f-47ee-b9ff-7da4b644888c",
+          "id": "27db8e5d-8ba6-4b9b-b60b-2d9d63ee605f",
           "episode_number": 42,
           "title": "Luckyman S01E42",
           "sub_url": "https://drive.google.com/file/d/1wPV2BgrJWwMWwyF6loK8X3x8RF9GwQxm/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:39:06.959Z",
-          "updated_at": "2026-08-05T08:39:06.959Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "2acfd193-327b-4782-8983-3f21ac88fc92",
+          "id": "a156f15e-875f-4898-917b-016e158b4eea",
           "episode_number": 43,
           "title": "Luckyman S01E43",
           "sub_url": "https://drive.google.com/file/d/14Li8ZtfmIKXaZofzXddL0QXpW607eT4a/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:39:06.959Z",
-          "updated_at": "2026-08-05T08:39:06.959Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "6d077bfb-05be-4c75-92c3-c96b1991b6cc",
+          "id": "88d14472-20f5-4ffd-a0cb-94df60bcb98e",
           "episode_number": 44,
           "title": "Luckyman S01E44",
           "sub_url": "https://drive.google.com/file/d/1vdRv_MY3ZPHzYpTr9D9V_atT-6dj2ZuR/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:39:06.959Z",
-          "updated_at": "2026-08-05T08:39:06.959Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "79c29360-e95f-4524-b936-a7939caf1ce6",
+          "id": "4b8dc2f2-8fa8-4d7b-8940-e216ec862e33",
           "episode_number": 45,
           "title": "Luckyman S01E45",
           "sub_url": "https://drive.google.com/file/d/1sGhEYOPOeDyQNyiBPArEIKt0wDznTLRc/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:39:06.959Z",
-          "updated_at": "2026-08-05T08:39:06.959Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "a07aa7c8-9068-4ba4-a4e3-63535ecce87b",
+          "id": "17014fa7-adbc-471c-bf30-b0bc83d7884c",
           "episode_number": 46,
           "title": "Luckyman S01E46",
           "sub_url": "https://drive.google.com/file/d/12inamknCMvHsqtssCPYAPNexr0U4nneB/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:39:06.959Z",
-          "updated_at": "2026-08-05T08:39:06.959Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "0ac04d89-3b54-4203-8da2-605d3303c4a4",
+          "id": "e1b3bf11-2947-4282-8fad-60f5f03dda79",
           "episode_number": 47,
           "title": "Luckyman S01E47",
           "sub_url": "https://drive.google.com/file/d/1KDgoctsrFDuDZFYEgWFBGlapiEtlyOjv/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:39:06.959Z",
-          "updated_at": "2026-08-05T08:39:06.959Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "2fcffcbe-a960-4814-8140-a9250e7ac289",
+          "id": "13808e82-6439-40a1-b2ed-45cbfedfff9d",
           "episode_number": 48,
           "title": "Luckyman S01E48",
           "sub_url": "https://drive.google.com/file/d/1ItCEujMz-EVH_FFRRMq6FDRz0-8sFv9B/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:39:06.959Z",
-          "updated_at": "2026-08-05T08:39:06.959Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "72b6f198-a074-4749-b252-11e89da35388",
+          "id": "5235b87a-7475-469b-9d75-781f65fc626b",
           "episode_number": 49,
           "title": "Luckyman S01E49",
           "sub_url": "https://drive.google.com/file/d/1EZcA-zzqpYkTR0aTt0vzAA-SJWSMGqL4/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:39:06.959Z",
-          "updated_at": "2026-08-05T08:39:06.959Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         },
         {
-          "id": "82c7740a-61bd-428b-936a-1d7390bd50c0",
+          "id": "d75d3ed6-7057-464f-8373-6b292e86698b",
           "episode_number": 50,
           "title": "Luckyman S01E50",
           "sub_url": "https://drive.google.com/file/d/1_WIkq7q1IbiX8TG9nWnyPG9cgZhKXntA/preview",
           "dub_url": "",
           "thumbnail": "",
           "duration": "",
-          "created_at": "2026-08-05T08:39:06.959Z",
-          "updated_at": "2026-08-05T08:39:06.959Z"
+          "created_at": "2026-08-07T05:52:32.634Z",
+          "updated_at": "2026-08-07T05:52:32.634Z"
         }
       ]
     }
