@@ -1,0 +1,129 @@
+{
+  "id": "d5c0f217-3c02-427a-9049-50a8156338a4",
+  "title": "My Tiny Senpai",
+  "slug": "my-tiny-senpai",
+  "description": "Shinozaki starts his new job and is being taught by Katase, a tiny and kind senpai.",
+  "poster": "https://m.media-amazon.com/images/M/MV5BMWU4YmIyMjItNDZmNi00M2I3LTkxZjAtYTdhM2I0N2I1NzRhXkEyXkFqcGc@._V1_.jpg",
+  "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGQTxsTteYx41uN5BIJU2VPscClAbZh3eQ5GyajVb1Vg&s=10",
+  "genres": "Comedy , Romance , Slice of Life",
+  "tags": "Uchi no Kaisha no Chiisai Senpai no Hanashi",
+  "status": "completed",
+  "seasons": [
+    {
+      "id": "73f55e39-4f00-475f-84a0-979a6dffbc16",
+      "anime_id": "d5c0f217-3c02-427a-9049-50a8156338a4",
+      "season_number": 1,
+      "title": "",
+      "episodes": [
+        {
+          "id": "eab42279-8249-45e3-8728-d27a3c3e918a",
+          "episode_number": 1,
+          "title": "My Tiny Senpai S01E01",
+          "sub_url": "https://drive.google.com/file/d/1hbPYYfhomAZz2dE_MwQC45U0lOnwhL0a/preview",
+          "dub_url": "",
+          "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhhfzOI1HKDc5hOI6NByx1CmZpfkDYZcDMyiRihvvVdmZL3hBTh45LYyQ&s=10",
+          "duration": ""
+        },
+        {
+          "id": "a827e1ab-3330-42b4-80cc-871ca41f93ff",
+          "episode_number": 2,
+          "title": "My Tiny Senpai S01E02",
+          "sub_url": "https://drive.google.com/file/d/1k6ijW0R5CK3P2vhrAgyOQnoHQYVnt4oV/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": ""
+        },
+        {
+          "id": "0694afd6-811b-4454-ba1a-97dd471b5296",
+          "episode_number": 3,
+          "title": "My Tiny Senpai S01E03",
+          "sub_url": "https://drive.google.com/file/d/1NQVSf3QyIVMRqozsOccqZHF2oP-zhPvL/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": ""
+        },
+        {
+          "id": "aa6658af-e1cf-4a56-a537-2e815f8def18",
+          "episode_number": 4,
+          "title": "My Tiny Senpai S01E04",
+          "sub_url": "https://drive.google.com/file/d/1RxmVBu-LYrPwAXocmJBQHvMbi1OCyDkw/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": ""
+        },
+        {
+          "id": "9466578a-72b8-4dc4-b012-73a87d464b64",
+          "episode_number": 5,
+          "title": "My Tiny Senpai S01E05",
+          "sub_url": "https://drive.google.com/file/d/174gUccx1VT6U87ZWk5pbjBxek7WFqisk/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": ""
+        },
+        {
+          "id": "51e9a203-c002-4ad3-9386-b6d3fe414188",
+          "episode_number": 6,
+          "title": "My Tiny Senpai S01E06",
+          "sub_url": "https://drive.google.com/file/d/17l2PtKMDAde43d411lv3p8j1q004jhGC/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": ""
+        },
+        {
+          "id": "81140366-7028-4519-9820-c3861cf387c2",
+          "episode_number": 7,
+          "title": "My Tiny Senpai S01E07",
+          "sub_url": "https://drive.google.com/file/d/1ZC_LM_wnMUrpYb6KLxGQ8lqBtFRQvp6v/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": ""
+        },
+        {
+          "id": "71c4cd86-3e5b-44d8-825b-bf6cb8e19bfd",
+          "episode_number": 8,
+          "title": "My Tiny Senpai S01E08",
+          "sub_url": "https://drive.google.com/file/d/1jJeUmgWvXhlsmQLYLsE_RDFFbOsVgSOg/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": ""
+        },
+        {
+          "id": "9a193c4b-51e9-4bc1-8bb6-86756f9f8112",
+          "episode_number": 9,
+          "title": "My Tiny Senpai S01E09",
+          "sub_url": "https://drive.google.com/file/d/1I8PUKHDVKtfzEnRFgd1pRQgYWnEG3ebA/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": ""
+        },
+        {
+          "id": "986ddb09-bbe2-4fed-8366-525f584af1f6",
+          "episode_number": 10,
+          "title": "My Tiny Senpai S01E10",
+          "sub_url": "https://drive.google.com/file/d/13QGdWnuoQvdRcGmh130PJK7-vvDujbDe/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": ""
+        },
+        {
+          "id": "fdef176e-b24e-402d-b6c5-2fd4924c9a9d",
+          "episode_number": 11,
+          "title": "My Tiny Senpai S01E11",
+          "sub_url": "https://drive.google.com/file/d/14Es3ZGvbRYxoGrhwPvmEpQ_4nZ2HJOya/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": ""
+        },
+        {
+          "id": "7ae45f45-f497-4afa-9d9f-21f5b9775481",
+          "episode_number": 12,
+          "title": "My Tiny Senpai S01E12",
+          "sub_url": "https://drive.google.com/file/d/1Bn5mbhQtbQaLVoQV056WrFcHoUGEnzQB/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": ""
+        }
+      ]
+    }
+  ]
+}
