@@ -59,8 +59,8 @@ async function init(){
     // Normalize the type before filtering.
     all=index.filter(a=>normalizedType(a)===requestedType);
 
-    // Keep newest/current entries first.
-    all=all.slice().reverse();
+    // Keep newest/current entries first (anime-index.json is newest-first).
+    all=all.slice();
 
     setHero(all[0]);
 
