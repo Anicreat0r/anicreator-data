@@ -1,31 +1,7 @@
-import { subscribeHistory } from './history.js';
-
-const $ = s => document.querySelector(s);
-const esc = x => String(x ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
-const watch = h => `watch.html?anime=${encodeURIComponent(h.anime_slug)}&season=${encodeURIComponent(h.season_number || 1)}&ep=${encodeURIComponent(h.episode_number || 1)}`;
-
-let all = [];
-function render(items){
-  if(items) all = items || [];
-  const list = all.filter(h => {
-    const q = String($('#search').value || '').toLowerCase().trim();
-    return q ? `${h.anime_title || ''} ${h.title || ''}`.toLowerCase().includes(q) : true;
-  });
-  $('#grid').innerHTML = list.length
-    ? list.map(h => `<a class="card" href="${watch(h)}">
-        <img class="episode-thumb" src="${esc(h.thumbnail || h.poster || '')}" loading="lazy" alt="${esc(h.anime_title)}">
-        <div class="card-body">
-          <div class="card-title">${esc(h.anime_title)}</div>
-          <div class="card-meta">S${h.season_number} • EP ${h.episode_number}${h.title ? ' • ' + esc(h.title) : ''}</div>
-        </div>
-      </a>`).join('')
-    : '<div class="state">Nothing watched yet. Episodes you play appear here.</div>';
-  $('#count').textContent = `${list.length} ${list.length === 1 ? 'episode' : 'episodes'}`;
-}
-
-$('#loading').classList.add('hidden');
-$('#search').addEventListener('input', () => render());
-$('#search').addEventListener('keydown', e => { if(e.key==='Enter') render(); });
-$('#searchBtn').addEventListener('click', () => render());
-const unsub = subscribeHistory(render);
-window.addEventListener('unload', () => unsub && unsub());
+import{subscribeHistory,removeHistory,clearHistory}from"./history.js";
+const $=s=>document.querySelector(s);
+const esc=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
+function url(i){return"watch.html?anime="+encodeURIComponent(i.anime_slug||"")+"&season="+encodeURIComponent(i.season_number||1)+"&ep="+encodeURIComponent(i.episode_number||1)}
+function date(v){if(!v)return"";const d=new Date(Number(v));return isNaN(d)?"":d.toLocaleString(undefined,{year:"numeric",month:"short",day:"numeric",hour:"numeric",minute:"2-digit"})}
+function render(items){const g=$("#grid"),c=$("#count");if(!g)return;const l=Array.isArray(items)?items:[];if(c)c.textContent=`${l.length} ${l.length===1?"episode":"episodes"}`;if(!l.length){g.innerHTML='<div class="state">Nothing watched yet.<br>Episodes you play will appear here.</div>';return}g.innerHTML=l.map(i=>{const img=i.thumbnail||i.episode_thumb||i.anime_image||"",title=i.anime_title||"Unknown Anime",et=i.episode_title||i.title||"",movie=String(i.type||"anime").toLowerCase()==="movie";return`<div class="history-card"><a class="card" href="${url(i)}"><div class="history-thumb"><img class="episode-thumb" src="${esc(img)}" loading="lazy" alt="${esc(title)}" onerror="this.style.display='none'"></div><div class="card-body"><div class="card-title">${esc(title)}</div><div class="card-meta">${movie?"Movie":"Season "+esc(i.season_number||1)+" • Episode "+esc(i.episode_number||1)}</div>${et?`<div class="card-meta">${esc(et)}</div>`:""}<div class="card-meta history-date">${esc(date(i.watched_at||i.updated_at))}</div></div></a><button class="history-remove" type="button" data-remove-history="${esc(i.id)}" title="Remove">×</button></div>`}).join("");g.querySelectorAll("[data-remove-history]").forEach(b=>b.addEventListener("click",e=>{e.preventDefault();e.stopPropagation();removeHistory(b.dataset.removeHistory)}))}
+const l=$("#loading");if(l)l.classList.add("hidden");const cb=$("#clearHistory");if(cb)cb.addEventListener("click",()=>{if(document.querySelectorAll(".history-card").length&&confirm("Clear your entire watch history?"))clearHistory()});const unsubscribe=subscribeHistory(render);window.addEventListener("beforeunload",()=>{if(typeof unsubscribe==="function")unsubscribe()});
