@@ -1270,7 +1270,20 @@ import(
 );
 
 </script>
+<script type="module">
+import { addHistory } from "./js/history.js";
+function saveCurrentEpisodeToHistory(){const data=window.__bookmarkData;if(!data){console.warn("History: episode data not available.");return}console.log("Saving history:",data);addHistory(data)}
+window.addEventListener("bookmark-data",saveCurrentEpisodeToHistory);
+if(window.__bookmarkData)saveCurrentEpisodeToHistory();
+</script>
 
+<script type="module">
+import("./js/bookmark.js").then(async({isBookmarked,toggleBookmark})=>{const btn=document.querySelector("#bookmarkBtn");if(!btn)return;
+async function refresh(){const d=window.__bookmarkData;btn.disabled=!d;if(!d)return;try{const s=await isBookmarked(d);btn.classList.toggle("saved",s);btn.textContent=s?"★ Saved":"☆ Save"}catch(e){console.error("Bookmark error:",e)}}
+btn.addEventListener("click",async()=>{const d=window.__bookmarkData;if(!d)return;btn.disabled=true;try{const r=await toggleBookmark(d);if(r!==null){btn.classList.toggle("saved",r);btn.textContent=r?"★ Saved":"☆ Save"}}catch(e){console.error("Bookmark error:",e)}btn.disabled=false});
+window.addEventListener("bookmark-data",refresh);refresh();
+}).catch(e=>console.error("Bookmark failed. History will continue working:",e));
+</script>
 
 </body>
 
