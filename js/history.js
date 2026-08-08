@@ -1,15 +1,14 @@
 // ==========================================================
 // ANICREATOR HISTORY
-// LocalStorage based watch history
+// LocalStorage version
 // ==========================================================
 
-const HISTORY_KEY = "anicreator_history";
-
+const STORAGE_KEY = "anicreator_history";
 const MAX_HISTORY = 100;
 
 
 // ==========================================================
-// GET HISTORY
+// READ
 // ==========================================================
 
 function getHistory() {
@@ -17,9 +16,7 @@ function getHistory() {
     try {
 
         const raw =
-            localStorage.getItem(
-                HISTORY_KEY
-            );
+            localStorage.getItem(STORAGE_KEY);
 
         if (!raw) {
             return [];
@@ -28,13 +25,13 @@ function getHistory() {
         const data =
             JSON.parse(raw);
 
-        return Array.isArray(data)
-            ? data
-            : [];
+        if (!Array.isArray(data)) {
+            return [];
+        }
 
-    }
+        return data;
 
-    catch (error) {
+    } catch (error) {
 
         console.error(
             "History read error:",
@@ -49,7 +46,7 @@ function getHistory() {
 
 
 // ==========================================================
-// SAVE HISTORY
+// SAVE
 // ==========================================================
 
 function saveHistory(list) {
@@ -57,13 +54,11 @@ function saveHistory(list) {
     try {
 
         localStorage.setItem(
-            HISTORY_KEY,
+            STORAGE_KEY,
             JSON.stringify(list)
         );
 
-    }
-
-    catch (error) {
+    } catch (error) {
 
         console.error(
             "History save error:",
@@ -76,10 +71,10 @@ function saveHistory(list) {
 
 
 // ==========================================================
-// CREATE HISTORY ID
+// ID
 // ==========================================================
 
-function historyId(data) {
+function makeHistoryId(data) {
 
     if (!data) {
         return "";
@@ -94,15 +89,19 @@ function historyId(data) {
 
     const season =
         String(
-            data.season_number ??
+            data.season_number ||
             1
         ).trim();
 
     const episode =
         String(
-            data.episode_number ??
+            data.episode_number ||
             1
         ).trim();
+
+    if (!anime) {
+        return "";
+    }
 
     return (
         anime +
@@ -125,36 +124,43 @@ export function addHistory(data) {
         return false;
     }
 
-
     const id =
-        historyId(data);
+        makeHistoryId(data);
 
     if (!id) {
         return false;
     }
 
 
-    let list =
+    let history =
         getHistory();
 
 
     /*
-     * Remove previous entry for
-     * the same episode.
+     * Remove existing copy.
+     * Re-watching an episode moves it
+     * back to the top.
      */
 
-    list =
-        list.filter(
+    history =
+        history.filter(
             item =>
                 item.id !== id
         );
 
 
-    /*
-     * Add newest item at the top.
-     */
+    const type =
+        String(
+            data.type ||
+            "anime"
+        )
+        .trim()
+        .toLowerCase() === "movie"
+            ? "movie"
+            : "anime";
 
-    list.unshift({
+
+    const item = {
 
         id: id,
 
@@ -198,6 +204,18 @@ export function addHistory(data) {
                 ""
             ),
 
+        /*
+         * Keep both names because older
+         * parts of your site may use either.
+         */
+
+        title:
+            String(
+                data.title ||
+                data.episode_title ||
+                ""
+            ),
+
         episode_thumb:
             String(
                 data.episode_thumb ||
@@ -208,14 +226,17 @@ export function addHistory(data) {
                 ""
             ),
 
-        type:
+        thumbnail:
             String(
-                data.type ||
-                "anime"
-            ).toLowerCase() ===
-            "movie"
-                ? "movie"
-                : "anime",
+                data.thumbnail ||
+                data.episode_thumb ||
+                data.anime_image ||
+                data.anime_poster ||
+                data.poster ||
+                ""
+            ),
+
+        type: type,
 
         watched_at:
             Date.now(),
@@ -223,21 +244,23 @@ export function addHistory(data) {
         updated_at:
             Date.now()
 
-    });
+    };
+
+
+    history.unshift(item);
 
 
     /*
-     * Keep only the newest
-     * MAX_HISTORY entries.
+     * Limit history size.
      */
 
     if (
-        list.length >
+        history.length >
         MAX_HISTORY
     ) {
 
-        list =
-            list.slice(
+        history =
+            history.slice(
                 0,
                 MAX_HISTORY
             );
@@ -245,16 +268,20 @@ export function addHistory(data) {
     }
 
 
-    saveHistory(list);
+    saveHistory(history);
 
 
     /*
-     * Notify History page/components.
+     * Tell other components on
+     * the same page that history changed.
      */
 
     window.dispatchEvent(
-        new Event(
-            "historyUpdated"
+        new CustomEvent(
+            "historyUpdated",
+            {
+                detail: history
+            }
         )
     );
 
@@ -265,7 +292,7 @@ export function addHistory(data) {
 
 
 // ==========================================================
-// GET SAVED HISTORY
+// GET HISTORY
 // ==========================================================
 
 export function savedHistory() {
@@ -275,10 +302,7 @@ export function savedHistory() {
 }
 
 
-// ==========================================================
-// GET HISTORY
 // Compatibility alias
-// ==========================================================
 
 export function getSavedHistory() {
 
@@ -288,12 +312,10 @@ export function getSavedHistory() {
 
 
 // ==========================================================
-// SUBSCRIBE TO HISTORY CHANGES
+// SUBSCRIBE
 // ==========================================================
 
-export function subscribeHistory(
-    callback
-) {
+export function subscribeHistory(callback) {
 
     if (
         typeof callback !==
@@ -304,6 +326,10 @@ export function subscribeHistory(
 
     }
 
+
+    /*
+     * Render immediately.
+     */
 
     callback(
         getHistory()
@@ -319,10 +345,9 @@ export function subscribeHistory(
     }
 
 
-    window.addEventListener(
-        "storage",
-        refresh
-    );
+    /*
+     * Same-tab updates.
+     */
 
     window.addEventListener(
         "historyUpdated",
@@ -330,12 +355,32 @@ export function subscribeHistory(
     );
 
 
-    return function unsubscribe() {
+    /*
+     * Cross-tab updates.
+     */
 
-        window.removeEventListener(
-            "storage",
-            refresh
-        );
+    window.addEventListener(
+        "storage",
+        function(event) {
+
+            if (
+                event.key ===
+                STORAGE_KEY
+            ) {
+
+                refresh();
+
+            }
+
+        }
+    );
+
+
+    /*
+     * Return unsubscribe function.
+     */
+
+    return function unsubscribe() {
 
         window.removeEventListener(
             "historyUpdated",
@@ -348,38 +393,35 @@ export function subscribeHistory(
 
 
 // ==========================================================
-// REMOVE ONE HISTORY ITEM
+// REMOVE ONE
 // ==========================================================
 
-export function removeHistory(
-    data
-) {
+export function removeHistory(data) {
 
     const id =
         typeof data === "string"
             ? data
-            : historyId(data);
-
+            : makeHistoryId(data);
 
     if (!id) {
         return false;
     }
 
 
-    const list =
+    const oldHistory =
         getHistory();
 
 
-    const newList =
-        list.filter(
+    const newHistory =
+        oldHistory.filter(
             item =>
                 item.id !== id
         );
 
 
     if (
-        newList.length ===
-        list.length
+        newHistory.length ===
+        oldHistory.length
     ) {
 
         return false;
@@ -388,13 +430,16 @@ export function removeHistory(
 
 
     saveHistory(
-        newList
+        newHistory
     );
 
 
     window.dispatchEvent(
-        new Event(
-            "historyUpdated"
+        new CustomEvent(
+            "historyUpdated",
+            {
+                detail: newHistory
+            }
         )
     );
 
@@ -405,32 +450,22 @@ export function removeHistory(
 
 
 // ==========================================================
-// CLEAR ALL HISTORY
+// CLEAR
 // ==========================================================
 
 export function clearHistory() {
 
-    try {
-
-        localStorage.removeItem(
-            HISTORY_KEY
-        );
-
-    }
-
-    catch (error) {
-
-        console.error(
-            "History clear error:",
-            error
-        );
-
-    }
+    localStorage.removeItem(
+        STORAGE_KEY
+    );
 
 
     window.dispatchEvent(
-        new Event(
-            "historyUpdated"
+        new CustomEvent(
+            "historyUpdated",
+            {
+                detail: []
+            }
         )
     );
 
@@ -438,31 +473,28 @@ export function clearHistory() {
 
 
 // ==========================================================
-// CHECK HISTORY
+// CHECK
 // ==========================================================
 
-export function hasHistory(
-    data
-) {
+export function hasHistory(data) {
 
     const id =
-        historyId(data);
+        makeHistoryId(data);
 
     if (!id) {
         return false;
     }
 
-    return getHistory()
-        .some(
-            item =>
-                item.id === id
-        );
+    return getHistory().some(
+        item =>
+            item.id === id
+    );
 
 }
 
 
 // ==========================================================
-// GET LAST WATCHED
+// LAST WATCHED
 // ==========================================================
 
 export function getLastWatched(
@@ -481,21 +513,19 @@ export function getLastWatched(
 
 
     return (
-        getHistory()
-            .find(
-                item =>
-                    String(
-                        item.anime_slug
-                    ).trim() === slug
-            ) ||
-        null
+        getHistory().find(
+            item =>
+                String(
+                    item.anime_slug
+                ).trim() === slug
+        ) || null
     );
 
 }
 
 
 // ==========================================================
-// DEFAULT EXPORT
+// EXPORT DEFAULT
 // ==========================================================
 
 export default {
