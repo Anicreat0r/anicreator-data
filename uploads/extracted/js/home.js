@@ -28,63 +28,40 @@ function episodeCard(e){
 let pool=[];
 function shuffleRandom(){
   const shuffled=pool.slice().sort(()=>Math.random()-.5);
-  $('#random').innerHTML=shuffled.map(episodeCard).join('')||'<div class="state">No random episodes available.</div>';
+  $('#random').innerHTML=shuffled.slice(0,12).map(episodeCard).join('')||'<div class="state">No random episodes available.</div>';
 }
 function setHero(item){
   if(!item)return;
   const bg=item.banner||item.poster||'';
   if(bg)$('#hero').style.backgroundImage=`linear-gradient(rgba(8,8,13,.65),rgba(8,8,13,.85)),url(${JSON.stringify(esc(bg))})`;
   $('#heroTitle').textContent=item.title||'Watch Anime & Movies';
-  const p=$('#heroDesc');
-  p.textContent=item.description||'Latest updates and random episodes.';
-  p.classList.remove('open');
-  let btn=p.parentElement.querySelector('.see-more');
-  if(!btn){
-    btn=document.createElement('button');
-    btn.className='see-more';
-    btn.textContent='See more';
-    p.parentElement.insertBefore(btn,p.nextSibling);
-  }
-  btn.onclick=()=>{
-    const open=p.classList.toggle('open');
-    btn.textContent=open?'See less':'See more';
-  };
-  setTimeout(()=>{
-    const clamped=p.scrollHeight>p.clientHeight+1;
-    btn.classList.toggle('hidden',!clamped);
-    btn.textContent=p.classList.contains('open')?'See less':'See more';
-  },60);
+  $('#heroDesc').textContent=item.description||'Latest updates and random episodes.';
 }
 async function init(){
   try{
     const idxR=await fetch('data/anime-index.json',{cache:'no-cache'});
     if(!idxR.ok)throw Error('Could not load anime-index.json');
     const index=await idxR.json();
-    // Latest Updates: every title in the catalog (anime + movies), newest first.
-    $('#latest').innerHTML=index.slice(0,6).map(latestCard).join('')||'<div class="state">No latest updates yet.</div>';
-    // Hero banner from the newest entry.
-    setHero(index[0]);
+    // Latest Updates: every title in the catalog (anime + movies).
+    $('#latest').innerHTML=index.slice().reverse().slice(0,12).map(latestCard).join('')||'<div class="state">No latest updates yet.</div>';
+    // Hero banner from the latest entry.
+    setHero(index[index.length-1]);
     // Random Episodes: build a pool of every playable episode across the catalog.
-    const loadOne=async a=>{
-      const url=`data/anime/${encodeURIComponent(a.slug||a.id)}.json`;
-      let d=null;
-      for(let attempt=0;attempt<3;attempt++){
-        try{
-          const r=await fetch(url,{cache:'reload'});
-          if(r.ok){d=await r.json();break;}
-        }catch(err){/* keep trying */}
-        if(attempt<2)await new Promise(res=>setTimeout(res,200*Math.pow(2,attempt)));
-      }
-      if(!d)return [];
-      const eps=[];
-      for(const s of (d.seasons||[])){
-        for(const e of (s.episodes||[])){
-          eps.push({anime_slug:d.slug||d.id,anime_title:d.title,season:s.season_number||1,episode_number:e.episode_number||1,title:e.title||'',thumbnail:e.thumbnail||d.poster,poster:d.poster});
+    const detailP=index.map(async a=>{
+      try{
+        const r=await fetch(`data/anime/${encodeURIComponent(a.slug||a.id)}.json`,{cache:'no-cache'});
+        if(!r.ok)return [];
+        const d=await r.json();
+        const eps=[];
+        for(const s of (d.seasons||[])){
+          for(const e of (s.episodes||[])){
+            eps.push({anime_slug:d.slug||d.id,anime_title:d.title,season:s.season_number||1,episode_number:e.episode_number||1,title:e.title||'',thumbnail:e.thumbnail||d.poster,poster:d.poster});
+          }
         }
-      }
-      return eps;
-    };
-    pool=(await Promise.all(index.map(loadOne))).flat();
+        return eps;
+      }catch(err){return [];}
+    });
+    pool=(await Promise.all(detailP)).flat();
     shuffleRandom();
   }catch(e){
     $('#latest').innerHTML='';
@@ -92,4 +69,5 @@ async function init(){
   }
 }
 $('#shuffle').onclick=shuffleRandom;
+$('#globalSearch').onkeydown=e=>{if(e.key==='Enter'&&e.target.value.trim())location.href=`anime.html?q=${encodeURIComponent(e.target.value.trim())}`};
 init();

@@ -45,25 +45,7 @@ function setHero(item){
   const h1=$('#heroTitle');
   if(h1)h1.textContent=item.title||'';
   const p=$('#heroDesc');
-  if(!p)return;
-  p.textContent=item.description||'';
-  p.classList.remove('open');
-  let btn=p.parentElement.querySelector('.see-more');
-  if(!btn){
-    btn=document.createElement('button');
-    btn.className='see-more';
-    btn.textContent='See more';
-    p.parentElement.insertBefore(btn,p.nextSibling);
-  }
-  btn.onclick=()=>{
-    const open=p.classList.toggle('open');
-    btn.textContent=open?'See less':'See more';
-  };
-  setTimeout(()=>{
-    const clamped=p.scrollHeight>p.clientHeight+1;
-    btn.classList.toggle('hidden',!clamped);
-    btn.textContent=p.classList.contains('open')?'See less':'See more';
-  },60);
+  if(p)p.textContent=item.description||'';
 }
 
 async function init(){
@@ -77,8 +59,8 @@ async function init(){
     // Normalize the type before filtering.
     all=index.filter(a=>normalizedType(a)===requestedType);
 
-    // Keep newest/current entries first (anime-index.json is newest-first).
-    all=all.slice();
+    // Keep newest/current entries first.
+    all=all.slice().reverse();
 
     setHero(all[0]);
 
@@ -94,6 +76,4 @@ async function init(){
 }
 
 $('#search').oninput=e=>render(filtered(e.target.value));
-$('#search').onkeydown=e=>{if(e.key==='Enter')render(filtered(e.target.value))};
-$('#searchBtn').onclick=()=>render(filtered($('#search').value));
 init();

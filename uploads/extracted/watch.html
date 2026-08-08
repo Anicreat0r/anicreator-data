@@ -27,14 +27,10 @@
         href="/channels4_profile.jpg"
     >
 
-<link
-            rel="stylesheet"
-            href="css/style.css"
-        >
-
-        <script type="importmap">
-            {"imports":{"@websim/websim-socket":"https://esm.websim.com/@websim/websim-socket"}}
-        </script>
+        <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
 
 
 </head>
@@ -42,7 +38,38 @@
 
 <body>
 
-<div id="site-header"></div>
+
+<!-- ==========================================
+     HEADER
+========================================== -->
+
+<header class="header">
+
+    <a
+        class="logo"
+        href="index.html"
+    >
+        <img class="logo-img" src="/channels4_profile.jpg" alt="">
+        Anicreator
+    </a>
+
+    <nav>
+
+        <a href="index.html">
+            Home
+        </a>
+
+        <a href="anime.html">
+            Anime
+        </a>
+
+        <a href="movie.html">
+            Movie
+        </a>
+
+    </nav>
+
+</header>
 
 
 <!-- ==========================================
@@ -139,45 +166,6 @@
             </div>
 
 
-            <div id="watchTools" class="watch-tools">
-
-                <div
-                    id="tabs"
-                    class="tabs"
-                >
-
-                    <button
-                        class="lang active"
-                        data-lang="sub"
-                    >
-                        SUB
-                    </button>
-
-                    <button
-                        class="lang"
-                        data-lang="dub"
-                    >
-                        DUB
-                    </button>
-
-                </div>
-
-                <button
-                    id="bookmarkBtn"
-                    class="btn bookmark-btn"
-                >
-                    ☆ Save
-                </button>
-
-                <button
-                    id="shareBtn"
-                    class="btn"
-                >
-                    ↗ Share
-                </button>
-
-            </div>
-
             <div id="actions">
 
                 <button id="prev">
@@ -194,18 +182,38 @@
 
 
         <!-- ======================================
+             SUB / DUB
+        ======================================= -->
+
+        <div
+            id="tabs"
+            class="tabs"
+        >
+
+            <button
+                class="lang active"
+                data-lang="sub"
+            >
+                SUB
+            </button>
+
+            <button
+                class="lang"
+                data-lang="dub"
+            >
+                DUB
+            </button>
+
+        </div>
+
+
+        <!-- ======================================
              EPISODES
         ======================================= -->
 
-        <div class="section-head">
-
-            <h2 id="episodeHeading">
-                Episodes
-            </h2>
-
-            <select id="seasonSelect"></select>
-
-        </div>
+        <h2 id="episodeHeading">
+            Episodes
+        </h2>
 
         <div
             id="episodes"
@@ -218,9 +226,16 @@
 </main>
 
 
-<div id="site-footer"></div>
+<!-- ==========================================
+     FOOTER
+========================================== -->
 
-<script src="js/layout.js"></script>
+<footer>
+
+    Anicreator does not store any files on our server, we only linked to the media which is hosted on 3rd party services. &copy; 2025 Anicreator.in. All rights reserved.
+
+</footer>
+
 
 <script>
 
@@ -366,22 +381,6 @@ function renderPlayer() {
             "anime"
         ).toLowerCase() ===
         "movie";
-
-
-    /* BOOKMARK / HISTORY DATA */
-
-    window.__bookmarkData = {
-        anime_slug: anime.slug || anime.id,
-        anime_title: anime.title || "",
-        season_number: season.season_number,
-        episode_number: episode.episode_number,
-        title: episode.title || "",
-        thumbnail: episode.thumbnail || anime.poster || "",
-        type: isMovie ? "movie" : "anime"
-    };
-    window.dispatchEvent(
-        new Event("bookmark-data")
-    );
 
 
     document.title =
@@ -745,96 +744,6 @@ document
     );
 
 
-
-/* ==========================================
-   SHARE
-========================================= */
-
-$("#shareBtn")
-    .addEventListener(
-        "click",
-        function() {
-
-            const url =
-                window.location.href;
-
-            if (
-                navigator.share
-            ) {
-
-                navigator.share({
-                    title: document.title,
-                    url: url
-                }).catch(function(){});
-
-                return;
-
-            }
-
-            const feedback =
-                function() {
-
-                    const btn =
-                        $("#shareBtn");
-                    const text =
-                        btn.textContent;
-
-                    btn.textContent =
-                        "Copied!";
-
-                    setTimeout(
-                        function() {
-                            btn.textContent =
-                                text;
-                        },
-                        1500
-                    );
-
-                };
-
-            const fallback =
-                function() {
-
-                    const ta =
-                        document.createElement(
-                            "textarea"
-                        );
-                    ta.value =
-                        url;
-                    document.body
-                        .appendChild(ta);
-                    ta.select();
-                    try {
-                        document
-                            .execCommand("copy");
-                    }
-                    catch (e) {}
-                    ta.remove();
-                    feedback();
-
-                };
-
-            if (
-                navigator.clipboard
-            ) {
-
-                navigator.clipboard
-                    .writeText(url)
-                    .then(feedback)
-                    .catch(fallback);
-
-            }
-
-            else {
-
-                fallback();
-
-            }
-
-        }
-    );
-
-
 /* ==========================================
    KEYBOARD CONTROLS
 ========================================== */
@@ -978,71 +887,8 @@ async function init() {
 
 
         /* ==================================
-           SEASON SELECT
+           LOAD EPISODES
         ================================== */
-
-        const isMovie =
-            (
-                anime.type ||
-                "anime"
-            ).toLowerCase() ===
-            "movie";
-
-        const seasonSelect =
-            $("#seasonSelect");
-
-        seasonSelect.classList.toggle(
-            "hidden",
-            isMovie
-        );
-
-        seasonSelect.innerHTML =
-            seasons
-                .map(
-                    function(s) {
-
-                        const num =
-                            Number(
-                                s.season_number
-                            ) || 1;
-
-                        return (
-                            '<option value="' +
-                            num +
-                            '"' +
-                            (
-                                Number(
-                                    season.season_number
-                                ) ===
-                                num
-                                    ? " selected"
-                                    : ""
-                            ) +
-                            ">Season " +
-                            num +
-                            "</option>"
-                        );
-
-                    }
-                )
-                .join("");
-
-        seasonSelect.onchange =
-            function() {
-
-                location.href =
-                    "watch.html?anime=" +
-                    encodeURIComponent(
-                        anime.slug ||
-                        anime.id
-                    ) +
-                    "&season=" +
-                    encodeURIComponent(
-                        this.value
-                    ) +
-                    "&ep=1";
-
-            };
 
         episodes =
             Array.isArray(
@@ -1149,125 +995,9 @@ document.body.addEventListener('click', openPopunder);
 
 /* ==========================================
    START
-========================================= */
+========================================== */
 
 init();
-
-
-/* ==========================================
-   BOOKMARK
-========================================= */
-
-import(
-    "./js/bookmark.js"
-).then(
-
-    async function({ isBookmarked, toggleBookmark }) {
-
-        const btn =
-            $("#bookmarkBtn");
-
-        const history =
-            await import(
-                "./js/history.js"
-            );
-
-        const refresh = async function() {
-
-            const data =
-                window.__bookmarkData;
-
-            btn.disabled =
-                !data;
-
-            if (!data) {
-
-                return;
-
-            }
-
-            history.addHistory(
-                data
-            );
-
-            const saved =
-                await isBookmarked(
-                    data
-                );
-
-            btn.classList.toggle(
-                "saved",
-                saved
-            );
-
-            btn.textContent =
-                saved
-                    ? "★ Saved"
-                    : "☆ Save";
-
-        };
-
-        btn.addEventListener(
-            "click",
-            async function() {
-
-                const data =
-                    window.__bookmarkData;
-
-                if (
-                    !data ||
-                    btn.disabled
-                ) {
-
-                    return;
-
-                }
-
-                btn.disabled =
-                    true;
-
-                const now =
-                    await toggleBookmark(
-                        data
-                    );
-
-                if (
-                    now === null
-                ) {
-
-                    btn.disabled =
-                        false;
-
-                    return;
-
-                }
-
-                btn.classList.toggle(
-                    "saved",
-                    now
-                );
-
-                btn.textContent =
-                    now
-                        ? "★ Saved"
-                        : "☆ Save";
-
-                btn.disabled =
-                    false;
-
-            }
-        );
-
-        window.addEventListener(
-            "bookmark-data",
-            refresh
-        );
-
-        refresh();
-
-    }
-
-);
 
 </script>
 
