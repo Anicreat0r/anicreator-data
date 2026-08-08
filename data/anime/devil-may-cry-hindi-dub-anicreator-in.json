@@ -7,13 +7,18 @@
   "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtkVLhTwYYQSMYQayDztTfMsJY3MD5Y9nbR2Mg_Ahv_HGlxytSmcnGQFQ&s=10",
   "genres": "Action, Fantasy",
   "tags": "Devil May Cry",
+  "type": "anime",
   "status": "ongoing",
+  "created_at": "2026-08-05T14:06:10.398Z",
+  "updated_at": "2026-08-05T14:06:10.398Z",
   "seasons": [
     {
       "id": "abe054f6-a3cd-4f5f-b16f-9780802bd906",
       "anime_id": "dc1b4367-0833-49b4-9825-7360502e64f4",
       "season_number": 1,
       "title": "",
+      "created_at": "2026-08-05T14:07:00.258Z",
+      "updated_at": "2026-08-05T14:07:00.258Z",
       "episodes": [
         {
           "id": "9bab5ac1-1e29-4a78-b9e2-9cb60308cd4e",
@@ -22,7 +27,9 @@
           "sub_url": "https://drive.google.com/file/d/1Nr41A0I1rw1IR0Chv_jbcpS-0Idlr6-F/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": ""
+          "duration": "",
+          "created_at": "2026-08-05T14:07:30.352Z",
+          "updated_at": "2026-08-05T14:07:30.352Z"
         },
         {
           "id": "5c81193d-ce08-4734-b8f2-9ea95def1237",
@@ -31,7 +38,9 @@
           "sub_url": "https://drive.google.com/file/d/1ZDX753V_z2W5lIe2YJlZmmagTjgX9XmI/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": ""
+          "duration": "",
+          "created_at": "2026-08-05T14:07:30.352Z",
+          "updated_at": "2026-08-05T14:07:30.352Z"
         },
         {
           "id": "0a17c4bb-db23-4bbe-ba48-5296d9e9372a",
@@ -40,7 +49,9 @@
           "sub_url": "https://drive.google.com/file/d/1HNZlmBYg5539WK4XVSNQ_Ilr9i2FewFR/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": ""
+          "duration": "",
+          "created_at": "2026-08-05T14:07:30.352Z",
+          "updated_at": "2026-08-05T14:07:30.352Z"
         },
         {
           "id": "ffabb433-c801-4fb9-aff1-7cdedee67d2d",
@@ -49,7 +60,9 @@
           "sub_url": "https://drive.google.com/file/d/1eqpX1irtN4xlFXyZEx1rbzMqyxbu6htT/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": ""
+          "duration": "",
+          "created_at": "2026-08-05T14:07:30.352Z",
+          "updated_at": "2026-08-05T14:07:30.352Z"
         },
         {
           "id": "2db414e6-9ab9-4583-87d7-15b3ccff0dba",
@@ -58,7 +71,9 @@
           "sub_url": "https://drive.google.com/file/d/1zazq3qadg4CynHXAPadIgThmjdcmQAUJ/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": ""
+          "duration": "",
+          "created_at": "2026-08-05T14:07:30.352Z",
+          "updated_at": "2026-08-05T14:07:30.352Z"
         },
         {
           "id": "5b4c4382-033d-484f-a0b3-9628d9201926",
@@ -67,7 +82,9 @@
           "sub_url": "https://drive.google.com/file/d/1SGFDPULBEoSgSHC-8GCo_BQWL5GTrkTO/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": ""
+          "duration": "",
+          "created_at": "2026-08-05T14:07:30.352Z",
+          "updated_at": "2026-08-05T14:07:30.352Z"
         },
         {
           "id": "2d045385-a93e-4517-b781-0a025b12f1c5",
@@ -76,7 +93,9 @@
           "sub_url": "https://drive.google.com/file/d/1iOlZczLluEcPvOg9cCC1Jqb3bAQh2ry5/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": ""
+          "duration": "",
+          "created_at": "2026-08-05T14:07:30.352Z",
+          "updated_at": "2026-08-05T14:07:30.352Z"
         },
         {
           "id": "19e79da4-dba0-47b2-a1b2-f5835901fdf6",
@@ -85,7 +104,9 @@
           "sub_url": "https://drive.google.com/file/d/18cmkRhenJbLJcofkfR1vdAmStNuE260Q/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": ""
+          "duration": "",
+          "created_at": "2026-08-05T14:07:30.352Z",
+          "updated_at": "2026-08-05T14:07:30.352Z"
         }
       ]
     }

@@ -7,13 +7,18 @@
   "banner": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/99d963532512c5a7ea974204138faf6f.jpg",
   "genres": "Action Adventure Drama Fantasy Romance",
   "tags": "Berserk of Gluttony",
+  "type": "anime",
   "status": "ongoing",
+  "created_at": "2026-08-05T14:00:22.261Z",
+  "updated_at": "2026-08-05T14:00:22.261Z",
   "seasons": [
     {
       "id": "ac425530-b370-4a2d-aa7b-055b9538112e",
       "anime_id": "75c6748c-d7bc-4db5-8fee-469b1067caaa",
       "season_number": 1,
       "title": "",
+      "created_at": "2026-08-05T14:00:38.433Z",
+      "updated_at": "2026-08-05T14:00:38.433Z",
       "episodes": [
         {
           "id": "99c6203c-1602-4fc3-8118-bb36fc578a57",
@@ -22,7 +27,9 @@
           "sub_url": "https://drive.google.com/file/d/1ILLVO0ut4Ug-PxC_suWxh95M_qn9g81B/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": ""
+          "duration": "",
+          "created_at": "2026-08-05T14:01:01.697Z",
+          "updated_at": "2026-08-05T14:01:01.697Z"
         },
         {
           "id": "9d43838c-ef0e-45a5-a6bd-4be4d094dfc1",
@@ -31,7 +38,9 @@
           "sub_url": "https://drive.google.com/file/d/1OSfMrBhic6uF-hUAKYMRlqSPd9YWhQ-n/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": ""
+          "duration": "",
+          "created_at": "2026-08-05T14:01:01.697Z",
+          "updated_at": "2026-08-05T14:01:01.697Z"
         },
         {
           "id": "f2497ae4-bcda-4a43-a2d1-c0540b555773",
@@ -40,7 +49,9 @@
           "sub_url": "https://drive.google.com/file/d/1hzj6InKXq66gVgFWLyh-BrdQrdoZaZej/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": ""
+          "duration": "",
+          "created_at": "2026-08-05T14:01:01.697Z",
+          "updated_at": "2026-08-05T14:01:01.697Z"
         },
         {
           "id": "faa4ec57-82d6-4905-9f2d-cabcf496f5ef",
@@ -49,7 +60,9 @@
           "sub_url": "https://drive.google.com/file/d/1WnQunxv83wIh_13TAPJHKKAiM8GGTii3/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": ""
+          "duration": "",
+          "created_at": "2026-08-05T14:01:01.697Z",
+          "updated_at": "2026-08-05T14:01:01.697Z"
         },
         {
           "id": "642689d8-754b-4742-8d66-1c588b4bb242",
@@ -58,7 +71,9 @@
           "sub_url": "https://drive.google.com/file/d/1LsOYi7cayj3kKbxOB76XBQdgNO_U59J8/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": ""
+          "duration": "",
+          "created_at": "2026-08-05T14:01:01.697Z",
+          "updated_at": "2026-08-05T14:01:01.697Z"
         },
         {
           "id": "795764a0-41b8-4691-8bd0-bf3854eb31f4",
@@ -67,7 +82,9 @@
           "sub_url": "https://drive.google.com/file/d/1MbU1dzVdCvuh1yYRHGTDy4ASqNNd058T/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": ""
+          "duration": "",
+          "created_at": "2026-08-05T14:01:01.697Z",
+          "updated_at": "2026-08-05T14:01:01.697Z"
         },
         {
           "id": "e7a10ab4-2e26-4bc3-9a9d-4c024c99a9b1",
@@ -76,7 +93,9 @@
           "sub_url": "https://drive.google.com/file/d/1yzY9S0TnCqkCkKroeIYgfet0nklxE37l/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": ""
+          "duration": "",
+          "created_at": "2026-08-05T14:01:01.697Z",
+          "updated_at": "2026-08-05T14:01:01.697Z"
         },
         {
           "id": "9ed778db-b607-4d52-b557-50c0292b9ba9",
@@ -85,7 +104,9 @@
           "sub_url": "https://drive.google.com/file/d/16Yog4fUWNW6O2zmUKOtXKvFCJpBOQibj/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": ""
+          "duration": "",
+          "created_at": "2026-08-05T14:01:01.697Z",
+          "updated_at": "2026-08-05T14:01:01.697Z"
         },
         {
           "id": "25ae279d-95c2-41a6-a2a2-c8a9f0b3d278",
@@ -94,7 +115,9 @@
           "sub_url": "https://drive.google.com/file/d/1LnbRmnBzU3MPT8GzjYQI_acZF0-oGYpR/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": ""
+          "duration": "",
+          "created_at": "2026-08-05T14:01:01.697Z",
+          "updated_at": "2026-08-05T14:01:01.697Z"
         },
         {
           "id": "6564ea66-cd86-4509-beb4-db1127ffb626",
@@ -103,7 +126,9 @@
           "sub_url": "https://drive.google.com/file/d/1FKRSsaEVjjynl0Z4Rntq4oU2rxEZt1Ur/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": ""
+          "duration": "",
+          "created_at": "2026-08-05T14:01:01.697Z",
+          "updated_at": "2026-08-05T14:01:01.697Z"
         },
         {
           "id": "930f6751-5189-4f2c-9509-31201314e142",
@@ -112,7 +137,9 @@
           "sub_url": "https://drive.google.com/file/d/1RJzGrBvUFqYBSjN-JIPH-YOfvDMem2gq/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": ""
+          "duration": "",
+          "created_at": "2026-08-05T14:01:01.697Z",
+          "updated_at": "2026-08-05T14:01:01.697Z"
         },
         {
           "id": "48439512-600c-4811-8308-5db455616a0b",
@@ -121,7 +148,9 @@
           "sub_url": "https://drive.google.com/file/d/1xi3b1FovMdTJCz7jyikkJi7SXt43zJMW/preview",
           "dub_url": "",
           "thumbnail": "",
-          "duration": ""
+          "duration": "",
+          "created_at": "2026-08-05T14:01:01.697Z",
+          "updated_at": "2026-08-05T14:01:01.697Z"
         }
       ]
     }

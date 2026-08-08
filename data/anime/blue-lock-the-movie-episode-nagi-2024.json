@@ -7,25 +7,31 @@
   "banner": "https://a.storyblok.com/f/178900/960x540/47681acebc/bluelockepisodenagi_16x9_3840x2160.png/m/filters:quality(95)format(webp)",
   "genres": " Action, Drama, Sports",
   "tags": "Blue Lock The Movie EPISODE NAGI (2024) ",
+  "type": "movie",
   "status": "ongoing",
+  "created_at": "2026-08-05T06:49:30.850Z",
+  "updated_at": "2026-08-05T06:49:30.850Z",
   "seasons": [
     {
       "id": "9286a237-0433-4e26-89b0-4a6663ff5ee0",
       "anime_id": "819e6775-3b41-4fcb-90b5-6cf2440b409b",
       "season_number": 1,
       "title": "Movie 1",
+      "created_at": "2026-08-05T06:51:09.943Z",
+      "updated_at": "2026-08-05T06:51:09.943Z",
       "episodes": [
         {
           "id": "08f43be4-571e-4e31-b8b4-c4bf3acca62b",
           "episode_number": 1,
           "title": "Blue Lock The Movie EPISODE NAGI (2024) ",
-          "sub_url": "",
+          "sub_url": "https://drive.google.com/file/d/1-V_X9Lp70dH0ggSQNnHdvnZmDSqiT35B/preview",
           "dub_url": "https://drive.google.com/file/d/1-V_X9Lp70dH0ggSQNnHdvnZmDSqiT35B/preview",
           "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyxGI7hS3IOwvw5uHppGI0j7ZchncRH0T8kc8ypxuCg&s=10",
-          "duration": "1899-12-29T20:07:39.000Z"
+          "duration": "1899-12-29T20:09:50.000Z",
+          "created_at": "",
+          "updated_at": "2026-08-07T04:48:14.350Z"
         }
       ]
     }
-  ],
-  "type": "movie"
+  ]
 }
