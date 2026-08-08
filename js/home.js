@@ -21,7 +21,7 @@ function episodeCard(e){
     <img class="episode-thumb" src="${esc(e.thumbnail||e.poster||'')}" loading="lazy" alt="${esc(e.anime_title)}">
     <div class="card-body">
       <div class="card-title">${esc(e.anime_title)}</div>
-      <div class="card-meta">S${e.season_number} • EP ${e.episode_number}${e.title?' • '+esc(e.title):''}</div>
+      <div class="card-meta">Anicreator • EP ${e.episode_number}${e.title?' • '+esc(e.title):''}</div>
     </div>
   </a>`;
 }
