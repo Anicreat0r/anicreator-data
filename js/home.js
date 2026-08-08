@@ -35,25 +35,7 @@ function setHero(item){
   const bg=item.banner||item.poster||'';
   if(bg)$('#hero').style.backgroundImage=`linear-gradient(rgba(8,8,13,.65),rgba(8,8,13,.85)),url(${JSON.stringify(esc(bg))})`;
   $('#heroTitle').textContent=item.title||'Watch Anime & Movies';
-  const p=$('#heroDesc');
-  p.textContent=item.description||'Latest updates and random episodes.';
-  p.classList.remove('open');
-  let btn=p.parentElement.querySelector('.see-more');
-  if(!btn){
-    btn=document.createElement('button');
-    btn.className='see-more';
-    btn.textContent='See more';
-    p.parentElement.insertBefore(btn,p.nextSibling);
-  }
-  btn.onclick=()=>{
-    const open=p.classList.toggle('open');
-    btn.textContent=open?'See less':'See more';
-  };
-  setTimeout(()=>{
-    const clamped=p.scrollHeight>p.clientHeight+1;
-    btn.classList.toggle('hidden',!clamped);
-    btn.textContent=p.classList.contains('open')?'See less':'See more';
-  },60);
+  $('#heroDesc').textContent=item.description||'Latest updates and random episodes.';
 }
 async function init(){
   try{
@@ -92,4 +74,7 @@ async function init(){
   }
 }
 $('#shuffle').onclick=shuffleRandom;
+const searchNow=()=>{const v=$('#globalSearch').value.trim();if(v)location.href=`anime.html?q=${encodeURIComponent(v)}`};
+$('#globalSearch').onkeydown=e=>{if(e.key==='Enter')searchNow()};
+$('#searchBtn').onclick=searchNow;
 init();

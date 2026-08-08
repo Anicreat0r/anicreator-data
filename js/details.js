@@ -9,20 +9,7 @@ function renderInfo(a){
   document.title=`${a.title||'Untitled'} - Anicreator`;
   $('#poster').src=a.poster||'';
   $('#title').textContent=a.title||'Untitled';
-  const desc=$('#description');
-  const msg=a.description||'No description available.';
-  desc.textContent=msg;
-  desc.classList.remove('open');
-  const btn=$('#seeMore');
-  btn.onclick=()=>{
-    const open=desc.classList.toggle('open');
-    btn.textContent=open?'See less':'See more';
-  };
-  setTimeout(()=>{
-    const clamped=desc.scrollHeight>desc.clientHeight+1;
-    btn.classList.toggle('hidden',!clamped);
-    btn.textContent='See more';
-  },60);
+  $('#description').textContent=a.description||'No description available.';
   $('#meta').textContent=movie?'Movie':`${a.status||'Anime'} • ${(a.seasons||[]).length} season(s)`;
   $('#genres').innerHTML=String(a.genres||'').split(/[,|]/).map(x=>x.trim()).filter(Boolean).map(x=>`<span class="chip">${esc(x)}</span>`).join('');
 }
@@ -77,3 +64,7 @@ async function init(){
   }
 }
 init();
+
+const goSearch=()=>{const v=($('#globalSearch')?.value||'').trim();if(v)location.href=`anime.html?q=${encodeURIComponent(v)}`};
+$('#globalSearch').addEventListener('keydown',e=>{if(e.key==='Enter')goSearch()});
+$('#searchBtn').addEventListener('click',goSearch);

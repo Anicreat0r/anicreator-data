@@ -42,7 +42,48 @@
 
 <body>
 
-<div id="site-header"></div>
+
+<!-- ==========================================
+     HEADER
+========================================== -->
+
+<header class="header">
+
+    <a
+        class="logo"
+        href="index.html"
+    >
+        <img class="logo-img" src="/channels4_profile.jpg" alt="">
+        Anicreator
+    </a>
+
+    <nav>
+
+        <a href="index.html">
+            Home
+        </a>
+
+        <a href="anime.html">
+            Anime
+        </a>
+
+        <a href="movie.html">
+            Movie
+        </a>
+
+        <a href="bookmark.html">
+            Bookmarks
+        </a>
+
+        <a href="history.html">
+            History
+        </a>
+
+    </nav>
+
+    <div class="search-box"><input id="globalSearch" class="search" placeholder="Search..."><button id="searchBtn" class="search-btn" aria-label="Search"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/></svg></button></div>
+
+</header>
 
 
 <!-- ==========================================
@@ -141,27 +182,6 @@
 
             <div id="watchTools" class="watch-tools">
 
-                <div
-                    id="tabs"
-                    class="tabs"
-                >
-
-                    <button
-                        class="lang active"
-                        data-lang="sub"
-                    >
-                        SUB
-                    </button>
-
-                    <button
-                        class="lang"
-                        data-lang="dub"
-                    >
-                        DUB
-                    </button>
-
-                </div>
-
                 <button
                     id="bookmarkBtn"
                     class="btn bookmark-btn"
@@ -194,18 +214,38 @@
 
 
         <!-- ======================================
+             SUB / DUB
+        ======================================= -->
+
+        <div
+            id="tabs"
+            class="tabs"
+        >
+
+            <button
+                class="lang active"
+                data-lang="sub"
+            >
+                SUB
+            </button>
+
+            <button
+                class="lang"
+                data-lang="dub"
+            >
+                DUB
+            </button>
+
+        </div>
+
+
+        <!-- ======================================
              EPISODES
         ======================================= -->
 
-        <div class="section-head">
-
-            <h2 id="episodeHeading">
-                Episodes
-            </h2>
-
-            <select id="seasonSelect"></select>
-
-        </div>
+        <h2 id="episodeHeading">
+            Episodes
+        </h2>
 
         <div
             id="episodes"
@@ -218,9 +258,16 @@
 </main>
 
 
-<div id="site-footer"></div>
+<!-- ==========================================
+     FOOTER
+========================================== -->
 
-<script src="js/layout.js"></script>
+<footer>
+
+    Anicreator does not store any files on our server, we only linked to the media which is hosted on 3rd party services. &copy; 2025 Anicreator.in. All rights reserved.
+
+</footer>
+
 
 <script>
 
@@ -978,71 +1025,8 @@ async function init() {
 
 
         /* ==================================
-           SEASON SELECT
+           LOAD EPISODES
         ================================== */
-
-        const isMovie =
-            (
-                anime.type ||
-                "anime"
-            ).toLowerCase() ===
-            "movie";
-
-        const seasonSelect =
-            $("#seasonSelect");
-
-        seasonSelect.classList.toggle(
-            "hidden",
-            isMovie
-        );
-
-        seasonSelect.innerHTML =
-            seasons
-                .map(
-                    function(s) {
-
-                        const num =
-                            Number(
-                                s.season_number
-                            ) || 1;
-
-                        return (
-                            '<option value="' +
-                            num +
-                            '"' +
-                            (
-                                Number(
-                                    season.season_number
-                                ) ===
-                                num
-                                    ? " selected"
-                                    : ""
-                            ) +
-                            ">Season " +
-                            num +
-                            "</option>"
-                        );
-
-                    }
-                )
-                .join("");
-
-        seasonSelect.onchange =
-            function() {
-
-                location.href =
-                    "watch.html?anime=" +
-                    encodeURIComponent(
-                        anime.slug ||
-                        anime.id
-                    ) +
-                    "&season=" +
-                    encodeURIComponent(
-                        this.value
-                    ) +
-                    "&ep=1";
-
-            };
 
         episodes =
             Array.isArray(
