@@ -1,6 +1,20 @@
 {
   "latest": [
     {
+      "id": "d1ff429e-c1ab-4c7b-ba65-154750d107e9",
+      "title": "Ben 10 Hindi Dub | Anicreator.in",
+      "slug": "ben-10-hindi-dub-anicreator-in",
+      "description": "Ten-year-old Ben Tennyson discovers a mysterious device, the Omnitrix, on a family vacation. The device allows him to transform into ten different alien forms replete with unique superpowers.",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy1jVOygCQCC6G5fy8RXaanMioWSotubRf_PJ3DYIuLw&s=10",
+      "banner": "https://m.media-amazon.com/images/S/pv-target-images/1cd9df3eab947f5df1a10db1cf3d00e06abf70ee5299b38d0ec68bd724a92673.jpg",
+      "genres": "Action, Adventure, Sci-fi, superhero",
+      "tags": "Ben 10, Anicreator, Hindi",
+      "type": "anime",
+      "status": "ongoing",
+      "created_at": "2026-08-09T02:29:28.047Z",
+      "updated_at": "2026-08-09T02:29:28.047Z"
+    },
+    {
       "id": "fd351ee8-af74-4b45-887f-0d0ec410b3ad",
       "title": "A Gatherer's Adventure in Isekai Hindi Dub | Anicreator.in",
       "slug": "a-gatherers-adventure-in-isekai-hindi-dub-anicreator-in",
@@ -265,21 +279,7 @@
       "status": "ongoing",
       "created_at": "2026-08-05T13:44:40.896Z",
       "updated_at": "2026-08-05T13:44:40.896Z"
-    },
-    {
-      "id": "de7df30d-8da8-470f-9611-7369e1e9a88f",
-      "title": "Shangri-La Frontier Hindi Dub | Anicreator.in",
-      "slug": "shangri-la-frontier-hindi-dub-anicreator-in",
-      "description": "\"When was the last time I played a game that wasn't crap?\" This is a world in the near future where games that use display screens are classified as retro. Anything that can't keep up with state-of-the-art VR technology is called a \"crap game,\" and you see a large number of crap games coming out. Those who devote their lives to clearing these games are called \"crap-game hunters,\" and Rakuro Hizutome is one of them. The game he's chosen to tackle next is Shangri-La Frontier, a \"god-tier game\" that has a total of thirty million players. Online friends... An expansive world... Encounters with rivals... These are changing Rakuro and all the other players' fates! The best game adventure tale by the strongest \"crap game\" player begins now!",
-      "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151970-xtIx3VqEk02X.jpg",
-      "banner": "https://culturedvultures.com/wp-content/uploads/2023/08/image_2023-08-23_114531092.jpg",
-      "genres": "Action, Adventure, Comedy, Fantasy, Sci-Fi",
-      "tags": "Shangri-La Frontier",
-      "type": "anime",
-      "status": "ongoing",
-      "created_at": "",
-      "updated_at": "2026-08-05T13:03:26.497Z"
     }
   ],
-  "generated_at": "2026-08-09T01:34:34.564Z"
+  "generated_at": "2026-08-09T02:33:53.002Z"
 }

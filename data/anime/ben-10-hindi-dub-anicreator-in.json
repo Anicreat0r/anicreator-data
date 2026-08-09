@@ -1,0 +1,628 @@
+{
+  "id": "d1ff429e-c1ab-4c7b-ba65-154750d107e9",
+  "title": "Ben 10 Hindi Dub | Anicreator.in",
+  "slug": "ben-10-hindi-dub-anicreator-in",
+  "description": "Ten-year-old Ben Tennyson discovers a mysterious device, the Omnitrix, on a family vacation. The device allows him to transform into ten different alien forms replete with unique superpowers.",
+  "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy1jVOygCQCC6G5fy8RXaanMioWSotubRf_PJ3DYIuLw&s=10",
+  "banner": "https://m.media-amazon.com/images/S/pv-target-images/1cd9df3eab947f5df1a10db1cf3d00e06abf70ee5299b38d0ec68bd724a92673.jpg",
+  "genres": "Action, Adventure, Sci-fi, superhero",
+  "tags": "Ben 10, Anicreator, Hindi",
+  "type": "anime",
+  "status": "ongoing",
+  "created_at": "2026-08-09T02:29:28.047Z",
+  "updated_at": "2026-08-09T02:29:28.047Z",
+  "seasons": [
+    {
+      "id": "7d08c6cb-4382-44c0-bc1e-ce4b37a67d24",
+      "anime_id": "d1ff429e-c1ab-4c7b-ba65-154750d107e9",
+      "season_number": 1,
+      "title": "",
+      "created_at": "2026-08-09T02:29:58.602Z",
+      "updated_at": "2026-08-09T02:29:58.602Z",
+      "episodes": [
+        {
+          "id": "82b409ed-877d-44bb-be0b-792e3fb9d482",
+          "episode_number": 1,
+          "title": "Ben 10 (2005) S01E01",
+          "sub_url": "https://drive.google.com/file/d/1ho8MPgDtmrj0BE9Yx9vXq5jQdzumsWd1/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:31:05.987Z",
+          "updated_at": "2026-08-09T02:31:05.987Z"
+        },
+        {
+          "id": "5886d068-e0b5-492b-81b4-3c8a55e1a3ba",
+          "episode_number": 2,
+          "title": "Ben 10 (2005) S01E02",
+          "sub_url": "https://drive.google.com/file/d/13Axo-IZD1HhjLC84rEsGbVO3Q1afLz7k/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:31:05.987Z",
+          "updated_at": "2026-08-09T02:31:05.987Z"
+        },
+        {
+          "id": "f7a2acfb-c1e1-4e3d-85a4-3bc77d96edc9",
+          "episode_number": 3,
+          "title": "Ben 10 (2005) S01E03",
+          "sub_url": "https://drive.google.com/file/d/1HIFF2ArysLSbdriTDpAI6-SCWPeUlha3/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:31:05.987Z",
+          "updated_at": "2026-08-09T02:31:05.987Z"
+        },
+        {
+          "id": "4fafeaa4-a2f7-4f45-94c3-092388c8cf12",
+          "episode_number": 4,
+          "title": "Ben 10 (2005) S01E04",
+          "sub_url": "https://drive.google.com/file/d/1DQwQzjc0DrvMeh-pgdASt8_ZxZD6-4l_/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:31:05.987Z",
+          "updated_at": "2026-08-09T02:31:05.987Z"
+        },
+        {
+          "id": "e750d767-33cd-4b8e-a184-722f3dd6a57d",
+          "episode_number": 5,
+          "title": "Ben 10 (2005) S01E05",
+          "sub_url": "https://drive.google.com/file/d/1xV6DnB73ndGTTUEcWEjlpOczMhq8KyDz/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:31:05.987Z",
+          "updated_at": "2026-08-09T02:31:05.987Z"
+        },
+        {
+          "id": "abc02be4-78f3-442c-b8b6-63acda83815c",
+          "episode_number": 6,
+          "title": "Ben 10 (2005) S01E06",
+          "sub_url": "https://drive.google.com/file/d/1ScpHKsD_jJqfYZUPl2AM7wKmIIp0v4lm/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:31:05.987Z",
+          "updated_at": "2026-08-09T02:31:05.987Z"
+        },
+        {
+          "id": "5b1920a9-9e56-4b8d-8eeb-5f2ef3899940",
+          "episode_number": 7,
+          "title": "Ben 10 (2005) S01E07",
+          "sub_url": "https://drive.google.com/file/d/1pZvCJP4LBfY9iGIRQyacGS37FOEI99pX/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:31:05.987Z",
+          "updated_at": "2026-08-09T02:31:05.987Z"
+        },
+        {
+          "id": "756b3b46-1ca3-4d73-91ae-47dc9002b792",
+          "episode_number": 8,
+          "title": "Ben 10 (2005) S01E08",
+          "sub_url": "https://drive.google.com/file/d/19eMEOHb6_RU7PAQ-d-8bKkN-oxeZN60G/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:31:05.987Z",
+          "updated_at": "2026-08-09T02:31:05.987Z"
+        },
+        {
+          "id": "de32192e-3520-4732-9052-6e1c67477eb6",
+          "episode_number": 9,
+          "title": "Ben 10 (2005) S01E09",
+          "sub_url": "https://drive.google.com/file/d/164qGulGHmuB2cpIakyfoo2hG2rneHHlj/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:31:05.987Z",
+          "updated_at": "2026-08-09T02:31:05.987Z"
+        },
+        {
+          "id": "c64665a5-11b3-4a4e-bfe0-ebda6adb7939",
+          "episode_number": 10,
+          "title": "Ben 10 (2005) S01E10",
+          "sub_url": "https://drive.google.com/file/d/17Eos2IDINqy5MGNbzPePmkgsu0fHb3r7/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:31:05.987Z",
+          "updated_at": "2026-08-09T02:31:05.987Z"
+        },
+        {
+          "id": "b68accaa-7ddb-4a89-bf7f-f7edcd06cb14",
+          "episode_number": 11,
+          "title": "Ben 10 (2005) S01E11",
+          "sub_url": "https://drive.google.com/file/d/1LBSlivo9bPBAcQmHVy3Ct1n0hxnv5hjd/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:31:05.987Z",
+          "updated_at": "2026-08-09T02:31:05.987Z"
+        },
+        {
+          "id": "a8388f2c-a46a-4e1b-ac53-cbd1cbb57d4f",
+          "episode_number": 12,
+          "title": "Ben 10 (2005) S01E12",
+          "sub_url": "https://drive.google.com/file/d/1SlFiaPV4QxYifeBNkJIl0_pcBaY5gXBY/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:31:05.987Z",
+          "updated_at": "2026-08-09T02:31:05.987Z"
+        },
+        {
+          "id": "c45c4e51-bfe3-45e1-b174-b26f2a9f196c",
+          "episode_number": 13,
+          "title": "Ben 10 (2005) S01E13",
+          "sub_url": "https://drive.google.com/file/d/1SnVI5zfdGUaK8fy1UHTEK3WIcBNon4Ga/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:31:05.987Z",
+          "updated_at": "2026-08-09T02:31:05.987Z"
+        }
+      ]
+    },
+    {
+      "id": "0982fc0e-22cb-4467-9943-39940f8f6379",
+      "anime_id": "d1ff429e-c1ab-4c7b-ba65-154750d107e9",
+      "season_number": 2,
+      "title": "",
+      "created_at": "2026-08-09T02:30:15.133Z",
+      "updated_at": "2026-08-09T02:30:15.133Z",
+      "episodes": [
+        {
+          "id": "c312c6ed-a355-4a45-9f4d-9476eadd63bb",
+          "episode_number": 1,
+          "title": "Ben 10 (2005) S02E01",
+          "sub_url": "https://drive.google.com/file/d/1h8JbyIkyd8npT-G4OUJJKSddmBGCQbgr/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:32:17.403Z",
+          "updated_at": "2026-08-09T02:32:17.403Z"
+        },
+        {
+          "id": "93c43960-0160-426d-81f6-f3afed690438",
+          "episode_number": 2,
+          "title": "Ben 10 (2005) S02E02",
+          "sub_url": "https://drive.google.com/file/d/1NPbcPf5RbewHwTXnNbm_4D2YLgyMH09T/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:32:17.403Z",
+          "updated_at": "2026-08-09T02:32:17.403Z"
+        },
+        {
+          "id": "b5f3ea81-ba76-4172-8855-3a7d48af1608",
+          "episode_number": 3,
+          "title": "Ben 10 (2005) S02E03",
+          "sub_url": "https://drive.google.com/file/d/1hT7SxxbrWODEOq9S9Qn62MYWuk5CsPUy/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:32:17.403Z",
+          "updated_at": "2026-08-09T02:32:17.403Z"
+        },
+        {
+          "id": "99e649d8-bf91-4974-927b-a8d544e9ef6e",
+          "episode_number": 4,
+          "title": "Ben 10 (2005) S02E04",
+          "sub_url": "https://drive.google.com/file/d/1HVB2h-aI0pKcbPSL3G2AO283XePZAR-e/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:32:17.403Z",
+          "updated_at": "2026-08-09T02:32:17.403Z"
+        },
+        {
+          "id": "6db7a9df-e53e-4d9f-98e4-8a81762ae0ad",
+          "episode_number": 5,
+          "title": "Ben 10 (2005) S02E05",
+          "sub_url": "https://drive.google.com/file/d/1kuVU2WqKCNGZl-_zF5JStMUqJmal4uhr/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:32:17.403Z",
+          "updated_at": "2026-08-09T02:32:17.403Z"
+        },
+        {
+          "id": "089e22a5-dc44-45f2-90fb-450252ed789b",
+          "episode_number": 6,
+          "title": "Ben 10 (2005) S02E06",
+          "sub_url": "https://drive.google.com/file/d/14LqpUj4_WGlCrOowkzqO4Fu10pNpy2EU/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:32:17.403Z",
+          "updated_at": "2026-08-09T02:32:17.403Z"
+        },
+        {
+          "id": "49ee2378-5b8d-44e6-8d5a-0192247a3a6f",
+          "episode_number": 7,
+          "title": "Ben 10 (2005) S02E07",
+          "sub_url": "https://drive.google.com/file/d/1a6jYpitvK3fyccsoIHXM6ASqY5iiEQ3x/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:32:17.403Z",
+          "updated_at": "2026-08-09T02:32:17.403Z"
+        },
+        {
+          "id": "98efb9e0-8550-4be3-b870-eb74d91de802",
+          "episode_number": 8,
+          "title": "Ben 10 (2005) S02E08",
+          "sub_url": "https://drive.google.com/file/d/1W_koxp7yT_i2ImymcfD4KhAudffX4Kde/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:32:17.403Z",
+          "updated_at": "2026-08-09T02:32:17.403Z"
+        },
+        {
+          "id": "db54722b-072c-4d12-bb38-605713818410",
+          "episode_number": 9,
+          "title": "Ben 10 (2005) S02E09",
+          "sub_url": "https://drive.google.com/file/d/1BtfJpVwstvl7PBIJo3nehI1sU64b1H2X/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:32:17.403Z",
+          "updated_at": "2026-08-09T02:32:17.403Z"
+        },
+        {
+          "id": "9d79a4fa-c98c-4d56-a1df-f21d67012459",
+          "episode_number": 10,
+          "title": "Ben 10 (2005) S02E10",
+          "sub_url": "https://drive.google.com/file/d/1myscBfhqENqz_V6R6gt4ji3P6AIkMZZy/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:32:17.403Z",
+          "updated_at": "2026-08-09T02:32:17.403Z"
+        },
+        {
+          "id": "5f2c53c6-3965-4c31-a344-9fa64ab129dc",
+          "episode_number": 11,
+          "title": "Ben 10 (2005) S02E11",
+          "sub_url": "https://drive.google.com/file/d/1pKZUP_idf0n2yI538MqWDVS4gRr1oXEx/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:32:17.403Z",
+          "updated_at": "2026-08-09T02:32:17.403Z"
+        },
+        {
+          "id": "b0847499-5fb0-4374-8a8a-8b42c0e8bbdb",
+          "episode_number": 12,
+          "title": "Ben 10 (2005) S02E12",
+          "sub_url": "https://drive.google.com/file/d/1mGikU9JBhvrCjEls7ERZaMGdj8NEhGtS/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:32:17.403Z",
+          "updated_at": "2026-08-09T02:32:17.403Z"
+        },
+        {
+          "id": "70f80c8a-9ece-406a-9820-9208ab5cea3b",
+          "episode_number": 13,
+          "title": "Ben 10 (2005) S02E13",
+          "sub_url": "https://drive.google.com/file/d/1G7FjbBH7z6b_mx8HKZ--8-kC57-bb4kK/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:32:17.403Z",
+          "updated_at": "2026-08-09T02:32:17.403Z"
+        }
+      ]
+    },
+    {
+      "id": "3c43e3ad-8f67-4841-b5cc-0687a02c15bf",
+      "anime_id": "d1ff429e-c1ab-4c7b-ba65-154750d107e9",
+      "season_number": 3,
+      "title": "",
+      "created_at": "2026-08-09T02:30:27.457Z",
+      "updated_at": "2026-08-09T02:30:27.457Z",
+      "episodes": [
+        {
+          "id": "93596071-232f-49c4-9107-2a28f99bb689",
+          "episode_number": 1,
+          "title": "Ben 10 (2005) S03E01",
+          "sub_url": "https://drive.google.com/file/d/19VZmbGHyHnOi5HkP9jss-3LDtqcO7eUF/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:33:21.440Z",
+          "updated_at": "2026-08-09T02:33:21.440Z"
+        },
+        {
+          "id": "70cdd02e-da77-44f0-b64c-7aed5ea31c37",
+          "episode_number": 2,
+          "title": "Ben 10 (2005) S03E02",
+          "sub_url": "https://drive.google.com/file/d/1rUskSdTsRhAipiAVbXqnZIryVZOrOazv/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:33:21.440Z",
+          "updated_at": "2026-08-09T02:33:21.440Z"
+        },
+        {
+          "id": "d272adfc-36e6-4126-b927-b36d53b5e60a",
+          "episode_number": 3,
+          "title": "Ben 10 (2005) S03E03",
+          "sub_url": "https://drive.google.com/file/d/161sVbdmJ5UzfJiK1nwZxpIdWFDY_IYWr/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:33:21.440Z",
+          "updated_at": "2026-08-09T02:33:21.440Z"
+        },
+        {
+          "id": "40dbcc91-4a6c-4d7c-a1e7-d85e88b2d290",
+          "episode_number": 4,
+          "title": "Ben 10 (2005) S03E04",
+          "sub_url": "https://drive.google.com/file/d/189XVzovmqABRtkR2J3k8Fm0nyYFUfXoj/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:33:21.440Z",
+          "updated_at": "2026-08-09T02:33:21.440Z"
+        },
+        {
+          "id": "a0a54d51-8efd-4ab0-ade4-d0cb29467e2a",
+          "episode_number": 5,
+          "title": "Ben 10 (2005) S03E05",
+          "sub_url": "https://drive.google.com/file/d/1ruEC5Z_zIBE4tzocfP68_ENm0LdODwKW/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:33:21.440Z",
+          "updated_at": "2026-08-09T02:33:21.440Z"
+        },
+        {
+          "id": "2bee0002-8cf9-4435-9a9a-567ba0752736",
+          "episode_number": 6,
+          "title": "Ben 10 (2005) S03E06",
+          "sub_url": "https://drive.google.com/file/d/1SAHOZGotsFxIipwIuztOYNzDBCTlL2SA/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:33:21.440Z",
+          "updated_at": "2026-08-09T02:33:21.440Z"
+        },
+        {
+          "id": "9b5222fc-a92e-4df1-ae24-e9a96fe0ddd5",
+          "episode_number": 7,
+          "title": "Ben 10 (2005) S03E07",
+          "sub_url": "https://drive.google.com/file/d/18IlEB5h8STWNDZ8vOePrMSVtfeSYNlhr/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:33:21.440Z",
+          "updated_at": "2026-08-09T02:33:21.440Z"
+        },
+        {
+          "id": "86d3a9bf-7775-4591-a3b8-931dc787b706",
+          "episode_number": 8,
+          "title": "Ben 10 (2005) S03E08",
+          "sub_url": "https://drive.google.com/file/d/1CFtNvsHYrJQKLkrOACApJ_CPi6DOupO8/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:33:21.440Z",
+          "updated_at": "2026-08-09T02:33:21.440Z"
+        },
+        {
+          "id": "97dea97d-625b-472e-8b06-9fa773703522",
+          "episode_number": 9,
+          "title": "Ben 10 (2005) S03E09",
+          "sub_url": "https://drive.google.com/file/d/1Fw3Uk5x-3DxlfkAqwMVZpkTgLuldJB3W/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:33:21.440Z",
+          "updated_at": "2026-08-09T02:33:21.440Z"
+        },
+        {
+          "id": "ca63cd4f-d5f4-415a-92fc-879e7d8f058b",
+          "episode_number": 10,
+          "title": "Ben 10 (2005) S03E10",
+          "sub_url": "https://drive.google.com/file/d/1OHzVdkjFDrtp6sS1uUQ_qLpprHd60BPt/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:33:21.440Z",
+          "updated_at": "2026-08-09T02:33:21.440Z"
+        },
+        {
+          "id": "d8399c7d-05ad-4e91-97e7-fce2b9f0d48a",
+          "episode_number": 11,
+          "title": "Ben 10 (2005) S03E11",
+          "sub_url": "https://drive.google.com/file/d/1NfGZ-X5oHogXavDYIYEUWXovUytJS025/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:33:21.440Z",
+          "updated_at": "2026-08-09T02:33:21.440Z"
+        },
+        {
+          "id": "2c6111b6-e788-4076-b5f3-ea0a50b864fa",
+          "episode_number": 12,
+          "title": "Ben 10 (2005) S03E12",
+          "sub_url": "https://drive.google.com/file/d/1m5ARxSomYt126Ky-lrgxn4l-NwxkKEhL/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:33:21.440Z",
+          "updated_at": "2026-08-09T02:33:21.440Z"
+        },
+        {
+          "id": "97898739-9c4f-49cf-8f36-1eca8bd651ea",
+          "episode_number": 13,
+          "title": "Ben 10 (2005) S03E13",
+          "sub_url": "https://drive.google.com/file/d/11tFr_DyzshQZXDLkzMKrZuNN58pSCq03/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:33:21.440Z",
+          "updated_at": "2026-08-09T02:33:21.440Z"
+        }
+      ]
+    },
+    {
+      "id": "07a3f2bd-d66d-4f0b-a315-f5b1681bafc4",
+      "anime_id": "d1ff429e-c1ab-4c7b-ba65-154750d107e9",
+      "season_number": 4,
+      "title": "",
+      "created_at": "2026-08-09T02:30:41.614Z",
+      "updated_at": "2026-08-09T02:30:41.614Z",
+      "episodes": [
+        {
+          "id": "f8ca9fb8-707f-4e94-b9bf-7a2f06ed57de",
+          "episode_number": 1,
+          "title": "Ben 10 (2005) S04E01",
+          "sub_url": "https://drive.google.com/file/d/1MVhR487MuaGiPwxgOTBrkx05KL6ZgAwZ/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:33:39.771Z",
+          "updated_at": "2026-08-09T02:33:39.771Z"
+        },
+        {
+          "id": "23d361c6-457d-4ab0-ab64-0e00a6fe6001",
+          "episode_number": 2,
+          "title": "Ben 10 (2005) S04E02",
+          "sub_url": "https://drive.google.com/file/d/1PYXHegmX92FXrOyFbVUbEePGlLbddrf0/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:33:39.771Z",
+          "updated_at": "2026-08-09T02:33:39.771Z"
+        },
+        {
+          "id": "ea58bde6-aed9-4c24-8d0b-6197d42ca96d",
+          "episode_number": 3,
+          "title": "Ben 10 (2005) S04E03",
+          "sub_url": "https://drive.google.com/file/d/16_cglBZgvCH-TW3__U8QpJU1Od7SlXOd/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:33:39.771Z",
+          "updated_at": "2026-08-09T02:33:39.771Z"
+        },
+        {
+          "id": "fd0e2742-8d83-42a4-bbf8-41b50af56d8d",
+          "episode_number": 4,
+          "title": "Ben 10 (2005) S04E04",
+          "sub_url": "https://drive.google.com/file/d/1v5i-quYmkf19mJsphmm6nXeePZEY0TGA/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:33:39.771Z",
+          "updated_at": "2026-08-09T02:33:39.771Z"
+        },
+        {
+          "id": "e1a6e613-f068-47ab-891b-44df92716360",
+          "episode_number": 5,
+          "title": "Ben 10 (2005) S04E05",
+          "sub_url": "https://drive.google.com/file/d/1P_GGNOD2sdiosBiwu7Q60_J-umbkYm6z/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:33:39.771Z",
+          "updated_at": "2026-08-09T02:33:39.771Z"
+        },
+        {
+          "id": "9006111e-0a15-4119-b72d-926df9abbb31",
+          "episode_number": 6,
+          "title": "Ben 10 (2005) S04E06",
+          "sub_url": "https://drive.google.com/file/d/1_YX_KJIenWdMburZhCB9LETbKfiEaI30/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:33:39.771Z",
+          "updated_at": "2026-08-09T02:33:39.771Z"
+        },
+        {
+          "id": "9f6e3719-22cd-4486-8976-f83189c4e790",
+          "episode_number": 7,
+          "title": "Ben 10 (2005) S04E07",
+          "sub_url": "https://drive.google.com/file/d/1eQkGT2auH6hcTv5qkcMnW8sD33b9LudQ/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:33:39.771Z",
+          "updated_at": "2026-08-09T02:33:39.771Z"
+        },
+        {
+          "id": "25fa19f6-15f0-4497-9f8f-a45da10b27a1",
+          "episode_number": 8,
+          "title": "Ben 10 (2005) S04E08",
+          "sub_url": "https://drive.google.com/file/d/1lYltWZ_SIxbQ5mBerPRmA4LOVlVgLyHe/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:33:39.771Z",
+          "updated_at": "2026-08-09T02:33:39.771Z"
+        },
+        {
+          "id": "3c87f95a-cf3f-4ea7-8101-daae5d6b9ae1",
+          "episode_number": 9,
+          "title": "Ben 10 (2005) S04E09",
+          "sub_url": "https://drive.google.com/file/d/1zYYu-9eO9fqFgJ_YYXWdcx-Jh3lAi8ru/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:33:39.771Z",
+          "updated_at": "2026-08-09T02:33:39.771Z"
+        },
+        {
+          "id": "b225e304-3970-4c78-b5e5-2f2be8bc0010",
+          "episode_number": 10,
+          "title": "Ben 10 (2005) S04E10",
+          "sub_url": "https://drive.google.com/file/d/1AWnJHRfkwDCSY7-Tmvjr-JEcWWSCC8_y/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:33:39.771Z",
+          "updated_at": "2026-08-09T02:33:39.771Z"
+        },
+        {
+          "id": "5803565f-bcd1-4497-b213-c3993898dafa",
+          "episode_number": 11,
+          "title": "Ben 10 (2005) S04E11",
+          "sub_url": "https://drive.google.com/file/d/19Z7WrRNkOur_ckFFGyfrwBJ2gi9UreZO/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:33:39.771Z",
+          "updated_at": "2026-08-09T02:33:39.771Z"
+        },
+        {
+          "id": "845b3175-58af-4bf7-bc62-e43c1b60d27e",
+          "episode_number": 12,
+          "title": "Ben 10 (2005) S04E12",
+          "sub_url": "https://drive.google.com/file/d/1ueNuj0KagoNrgSA20I5zvYw3eArxgqrb/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:33:39.771Z",
+          "updated_at": "2026-08-09T02:33:39.771Z"
+        },
+        {
+          "id": "e2798dff-6c32-426e-bb3a-f0c8e234f31a",
+          "episode_number": 13,
+          "title": "Ben 10 (2005) S04E13",
+          "sub_url": "https://drive.google.com/file/d/1YNtO8GCqMhN9pURnpTkn55egSPvlJPb6/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:33:39.771Z",
+          "updated_at": "2026-08-09T02:33:39.771Z"
+        }
+      ]
+    }
+  ]
+}
