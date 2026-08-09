@@ -1,6 +1,20 @@
 {
   "latest": [
     {
+      "id": "32dcc80d-d1fe-47ee-b23c-e0b564295aab",
+      "title": "Girls’ Frontline Hindi Dub | Anicreator.in",
+      "slug": "girls-frontline-hindi-dub-anicreator-in",
+      "description": "Adaptation of the mobile game \"Girls' Frontline\". We follow the everyday life of the Tactical-Dolls",
+      "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110521-cdWWd3TIO3pp.jpg",
+      "banner": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3887700/0b074382083f7662a34cd799cab517eec63048db/header.jpg?t=1763453229",
+      "genres": "Comedy, Sci-Fi",
+      "tags": "Girls’ Frontline , Hindi , Anicreator.in",
+      "type": "anime",
+      "status": "ongoing",
+      "created_at": "2026-08-09T02:36:57.911Z",
+      "updated_at": "2026-08-09T02:36:57.911Z"
+    },
+    {
       "id": "d1ff429e-c1ab-4c7b-ba65-154750d107e9",
       "title": "Ben 10 Hindi Dub | Anicreator.in",
       "slug": "ben-10-hindi-dub-anicreator-in",
@@ -265,21 +279,7 @@
       "status": "ongoing",
       "created_at": "2026-08-05T14:00:22.261Z",
       "updated_at": "2026-08-05T14:00:22.261Z"
-    },
-    {
-      "id": "73978c1f-7c50-4446-a5d7-b58a2285b061",
-      "title": "Welcome To Demon School! Iruma-kun ",
-      "slug": "welcome-to-demon-school-iruma-kun",
-      "description": "Suzuki Iruma has just been abandoned and sold to a demon by his irresponsible parents! Surprisingly, the next thing he knows he's living with the demon who has adopted him as his new grandson, and has been transferred into a school in the demon world where his new \"demon\" grandfather works as the principal. Thus begins the cowardly Iruma-kun's extraordinary school life among the otherworldly as he faces his true self, takes on challenges, and rises to become someone great...",
-      "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107693-A9bSSFAMxA6j.jpg",
-      "banner": "https://m.media-amazon.com/images/S/pv-target-images/c6c538a11fe4ac4e420dbe420df6185a98d6db34285a593e46d2d611d1b71a22._SX1080_FMjpg_.jpg",
-      "genres": "Comedy, Fantasy",
-      "tags": "Welcome To Demon School! Iruma-kun ",
-      "type": "anime",
-      "status": "ongoing",
-      "created_at": "2026-08-05T13:44:40.896Z",
-      "updated_at": "2026-08-05T13:44:40.896Z"
     }
   ],
-  "generated_at": "2026-08-09T02:33:53.002Z"
+  "generated_at": "2026-08-09T02:37:41.727Z"
 }

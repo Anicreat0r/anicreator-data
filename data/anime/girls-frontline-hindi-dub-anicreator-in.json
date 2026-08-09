@@ -1,0 +1,158 @@
+{
+  "id": "32dcc80d-d1fe-47ee-b23c-e0b564295aab",
+  "title": "Girls’ Frontline Hindi Dub | Anicreator.in",
+  "slug": "girls-frontline-hindi-dub-anicreator-in",
+  "description": "Adaptation of the mobile game \"Girls' Frontline\". We follow the everyday life of the Tactical-Dolls",
+  "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110521-cdWWd3TIO3pp.jpg",
+  "banner": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3887700/0b074382083f7662a34cd799cab517eec63048db/header.jpg?t=1763453229",
+  "genres": "Comedy, Sci-Fi",
+  "tags": "Girls’ Frontline , Hindi , Anicreator.in",
+  "type": "anime",
+  "status": "ongoing",
+  "created_at": "2026-08-09T02:36:57.911Z",
+  "updated_at": "2026-08-09T02:36:57.911Z",
+  "seasons": [
+    {
+      "id": "b54f020b-d504-4e55-a732-2e0a4ebe2a18",
+      "anime_id": "32dcc80d-d1fe-47ee-b23c-e0b564295aab",
+      "season_number": 1,
+      "title": "",
+      "created_at": "2026-08-09T02:37:10.099Z",
+      "updated_at": "2026-08-09T02:37:10.099Z",
+      "episodes": [
+        {
+          "id": "b0ff3f0d-b667-4aa4-9b42-bb1866c5cd19",
+          "episode_number": 1,
+          "title": "Girls’ Frontline S01E01",
+          "sub_url": "https://drive.google.com/file/d/1QBcStPJvtGs4T4jTS4FHCnCQjpEd2bcr/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:37:30.842Z",
+          "updated_at": "2026-08-09T02:37:30.842Z"
+        },
+        {
+          "id": "73a83be0-9e4b-4949-96fa-b88d0d9a2623",
+          "episode_number": 2,
+          "title": "Girls’ Frontline S01E02",
+          "sub_url": "https://drive.google.com/file/d/1rGMRX9fhbbpBkzFFRfvr99z2sahvlPoi/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:37:30.842Z",
+          "updated_at": "2026-08-09T02:37:30.842Z"
+        },
+        {
+          "id": "933e194b-795c-4408-a04c-a6c7c82cba66",
+          "episode_number": 3,
+          "title": "Girls’ Frontline S01E03",
+          "sub_url": "https://drive.google.com/file/d/1ihU2tdLjPPRxPxzLeNP8bef07SGJTKh5/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:37:30.842Z",
+          "updated_at": "2026-08-09T02:37:30.842Z"
+        },
+        {
+          "id": "455afaaf-672d-4b96-a579-88977d7f098d",
+          "episode_number": 4,
+          "title": "Girls’ Frontline S01E04",
+          "sub_url": "https://drive.google.com/file/d/1mI2e1K_SvLDOK3DwsSyWy54urQKfY5V9/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:37:30.842Z",
+          "updated_at": "2026-08-09T02:37:30.842Z"
+        },
+        {
+          "id": "a56bd073-ffc2-4eff-ba17-ac5d3e4eb74b",
+          "episode_number": 5,
+          "title": "Girls’ Frontline S01E05",
+          "sub_url": "https://drive.google.com/file/d/1anC7vA4f7lARc2k3f04Y5759bf4WZ-M0/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:37:30.842Z",
+          "updated_at": "2026-08-09T02:37:30.842Z"
+        },
+        {
+          "id": "bb13dfd6-8cbe-4a96-952d-3cac7a4be324",
+          "episode_number": 6,
+          "title": "Girls’ Frontline S01E06",
+          "sub_url": "https://drive.google.com/file/d/1XUyAuGN6gdCf6twCniEAg_hvHTM0xpNy/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:37:30.842Z",
+          "updated_at": "2026-08-09T02:37:30.842Z"
+        },
+        {
+          "id": "6ec2e6fd-fb31-4832-9bc1-9d50ffcce032",
+          "episode_number": 7,
+          "title": "Girls’ Frontline S01E07",
+          "sub_url": "https://drive.google.com/file/d/1BGqhrI38tBsxhC_r_eUCzB79tHjMn9S0/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:37:30.842Z",
+          "updated_at": "2026-08-09T02:37:30.842Z"
+        },
+        {
+          "id": "7e2189d6-b2da-44ae-b12b-a63587afd7e5",
+          "episode_number": 8,
+          "title": "Girls’ Frontline S01E08",
+          "sub_url": "https://drive.google.com/file/d/1lUugt1cEKRu18P96cojVyrvzl-NlbOuj/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:37:30.842Z",
+          "updated_at": "2026-08-09T02:37:30.842Z"
+        },
+        {
+          "id": "1f257d43-9d9f-4bf8-b0f8-42f3d2faf703",
+          "episode_number": 9,
+          "title": "Girls’ Frontline S01E09",
+          "sub_url": "https://drive.google.com/file/d/12xCoAx3hUEc3Tq_HEZekutvjNa9Ic9_i/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:37:30.842Z",
+          "updated_at": "2026-08-09T02:37:30.842Z"
+        },
+        {
+          "id": "db90c38a-9208-497d-adfd-ae8045f43da9",
+          "episode_number": 10,
+          "title": "Girls’ Frontline S01E10",
+          "sub_url": "https://drive.google.com/file/d/1rlY6MWuesLDLhtDcgrAq10ZVCJcWIiea/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:37:30.842Z",
+          "updated_at": "2026-08-09T02:37:30.842Z"
+        },
+        {
+          "id": "741e2bfb-c515-4728-8182-df55a9da11bc",
+          "episode_number": 11,
+          "title": "Girls’ Frontline S01E11",
+          "sub_url": "https://drive.google.com/file/d/1cJeIXrEeVIHjSe2CxEhNlXeggeiG4oSl/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:37:30.842Z",
+          "updated_at": "2026-08-09T02:37:30.842Z"
+        },
+        {
+          "id": "574d44bf-7934-4172-82e9-80068e3c572d",
+          "episode_number": 12,
+          "title": "Girls’ Frontline S01E12",
+          "sub_url": "https://drive.google.com/file/d/1YIOkSZZ7CYU9ClZWblWsuw_RHHHKKN5R/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T02:37:30.842Z",
+          "updated_at": "2026-08-09T02:37:30.842Z"
+        }
+      ]
+    }
+  ]
+}
