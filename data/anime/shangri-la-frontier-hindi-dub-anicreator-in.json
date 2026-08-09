@@ -307,6 +307,291 @@
           "updated_at": "2026-08-05T13:24:40.755Z"
         }
       ]
+    },
+    {
+      "id": "0f64cd38-2119-4e2e-96d8-86e66d97b536",
+      "anime_id": "de7df30d-8da8-470f-9611-7369e1e9a88f",
+      "season_number": 2,
+      "title": "",
+      "created_at": "2026-08-09T04:44:09.326Z",
+      "updated_at": "2026-08-09T04:44:09.326Z",
+      "episodes": [
+        {
+          "id": "33219d71-eb4b-40c6-a427-498d83f8ef63",
+          "episode_number": 1,
+          "title": "Shangri-La Frontier S02E01",
+          "sub_url": "https://drive.google.com/file/d/1aQPkIkp2o46pYOJb0bnD19wlb8XkuJc_/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T04:44:50.689Z",
+          "updated_at": "2026-08-09T04:44:50.689Z"
+        },
+        {
+          "id": "fcc9013b-7c85-42be-9845-8e775cda46b7",
+          "episode_number": 2,
+          "title": "Shangri-La Frontier S02E02",
+          "sub_url": "https://drive.google.com/file/d/1qp05cVtFKZP0998_VBJYDa6t6BYt0x1A/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T04:44:50.689Z",
+          "updated_at": "2026-08-09T04:44:50.689Z"
+        },
+        {
+          "id": "698fb456-afb0-4ffc-86da-3fa65566a790",
+          "episode_number": 3,
+          "title": "Shangri-La Frontier S02E03",
+          "sub_url": "https://drive.google.com/file/d/1mF5Nlp2jgDjPwTDsZ8NXxyrD1bl43mVu/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T04:44:50.689Z",
+          "updated_at": "2026-08-09T04:44:50.689Z"
+        },
+        {
+          "id": "bdedc656-7fa3-458b-8687-62aa75a8e3b8",
+          "episode_number": 4,
+          "title": "Shangri-La Frontier S02E04",
+          "sub_url": "https://drive.google.com/file/d/16lvH0tDHIp2WdhKmZ3ZT4e2Pavu2acS2/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T04:44:50.689Z",
+          "updated_at": "2026-08-09T04:44:50.689Z"
+        },
+        {
+          "id": "fc3f517b-6fc6-4f88-8826-69b0b51fc442",
+          "episode_number": 5,
+          "title": "Shangri-La Frontier S02E05",
+          "sub_url": "https://drive.google.com/file/d/14SUxWnpg7WT1WNWn3rzZflu5e_rBL1Tj/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T04:44:50.689Z",
+          "updated_at": "2026-08-09T04:44:50.689Z"
+        },
+        {
+          "id": "0a58b900-dfc2-4eb5-999e-424fa9cc5a98",
+          "episode_number": 6,
+          "title": "Shangri-La Frontier S02E06",
+          "sub_url": "https://drive.google.com/file/d/1JORT5qc37hQUXL6DkbwZ9t1fJPJfMHFL/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T04:44:50.689Z",
+          "updated_at": "2026-08-09T04:44:50.689Z"
+        },
+        {
+          "id": "53cc0efd-9268-4676-9e7e-659ac5729132",
+          "episode_number": 7,
+          "title": "Shangri-La Frontier S02E07",
+          "sub_url": "https://drive.google.com/file/d/1RjN3wvjcZhDciUGR92UIWuNwzKU2_M0N/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T04:44:50.689Z",
+          "updated_at": "2026-08-09T04:44:50.689Z"
+        },
+        {
+          "id": "5a3a7538-f869-4d57-8bc5-1cab5765806e",
+          "episode_number": 8,
+          "title": "Shangri-La Frontier S02E08",
+          "sub_url": "https://drive.google.com/file/d/1YAeywq9I5UbPZ3yxIHX-sSsCvrHNBjpB/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T04:44:50.689Z",
+          "updated_at": "2026-08-09T04:44:50.689Z"
+        },
+        {
+          "id": "ad13ec0c-bcee-4d33-b42c-3472d7342f16",
+          "episode_number": 9,
+          "title": "Shangri-La Frontier S02E09",
+          "sub_url": "https://drive.google.com/file/d/1gWIVsTu5e7tDC_8pnZ5j7qo1dKsWvzcM/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T04:44:50.689Z",
+          "updated_at": "2026-08-09T04:44:50.689Z"
+        },
+        {
+          "id": "5d743e93-eeb9-40d2-9e59-2a21967dfcf2",
+          "episode_number": 10,
+          "title": "Shangri-La Frontier S02E10",
+          "sub_url": "https://drive.google.com/file/d/1_SvwvRe1lvYgBwceAmJk3DsomNtmb-cp/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T04:44:50.689Z",
+          "updated_at": "2026-08-09T04:44:50.689Z"
+        },
+        {
+          "id": "5bddf448-a8c7-47c2-853a-f41063f92831",
+          "episode_number": 11,
+          "title": "Shangri-La Frontier S02E11",
+          "sub_url": "https://drive.google.com/file/d/1nC20w0EUqtfe7BQY6rOlMvNv92Xzxo7C/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T04:44:50.689Z",
+          "updated_at": "2026-08-09T04:44:50.689Z"
+        },
+        {
+          "id": "a4933bfe-8167-43e8-af69-12543edfe472",
+          "episode_number": 12,
+          "title": "Shangri-La Frontier S02E12",
+          "sub_url": "https://drive.google.com/file/d/1MwjrYvxkLzYivA8Vh0CruRFzOcP8EIc1/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T04:44:50.689Z",
+          "updated_at": "2026-08-09T04:44:50.689Z"
+        },
+        {
+          "id": "47d86488-e17d-4569-a8dc-665af72bed7b",
+          "episode_number": 13,
+          "title": "Shangri-La Frontier S02E13",
+          "sub_url": "https://drive.google.com/file/d/1yC1MESQ9E6bKphOTH9Hg_xOWaCdD6NyJ/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T04:44:50.689Z",
+          "updated_at": "2026-08-09T04:44:50.689Z"
+        },
+        {
+          "id": "2ca3c81f-2c96-4feb-ae8e-3c2a30879b62",
+          "episode_number": 14,
+          "title": "Shangri-La Frontier S02E14",
+          "sub_url": "https://drive.google.com/file/d/14yt5XE2LQ-0k49tWFy_ucRy4Qnu-aLWZ/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T04:44:50.689Z",
+          "updated_at": "2026-08-09T04:44:50.689Z"
+        },
+        {
+          "id": "72385dcb-52e8-4bb7-9130-5f42fb5d5c8d",
+          "episode_number": 15,
+          "title": "Shangri-La Frontier S02E15",
+          "sub_url": "https://drive.google.com/file/d/13gKc5gnZ6lVAtl16TCUUAFQmfguOxsxL/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T04:44:50.689Z",
+          "updated_at": "2026-08-09T04:44:50.689Z"
+        },
+        {
+          "id": "148a83bb-56e5-4464-a6e3-0ef9b003b29d",
+          "episode_number": 16,
+          "title": "Shangri-La Frontier S02E16",
+          "sub_url": "https://drive.google.com/file/d/1aVkiPqXFX6dYJEROni8H6xegFGuqDwuz/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T04:44:50.689Z",
+          "updated_at": "2026-08-09T04:44:50.689Z"
+        },
+        {
+          "id": "1c513eed-28ea-4018-a8e4-c898027587b9",
+          "episode_number": 17,
+          "title": "Shangri-La Frontier S02E17",
+          "sub_url": "https://drive.google.com/file/d/15DnC0W2VFM4K83M_nR8ERNZrUscB5oJB/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T04:44:50.689Z",
+          "updated_at": "2026-08-09T04:44:50.689Z"
+        },
+        {
+          "id": "a564189f-46f7-41f5-8367-b134b0740518",
+          "episode_number": 18,
+          "title": "Shangri-La Frontier S02E18",
+          "sub_url": "https://drive.google.com/file/d/1tQa2RKm3yNv5LjTgmdKzKw2uao5mjlHt/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T04:44:50.689Z",
+          "updated_at": "2026-08-09T04:44:50.689Z"
+        },
+        {
+          "id": "c156b8a0-54db-4fcc-b153-aad26907fc5d",
+          "episode_number": 19,
+          "title": "Shangri-La Frontier S02E19",
+          "sub_url": "https://drive.google.com/file/d/16fdTXxvWkK_WNGTk56ONuWrv8xcpPmSY/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T04:44:50.689Z",
+          "updated_at": "2026-08-09T04:44:50.689Z"
+        },
+        {
+          "id": "388a95f9-ead5-40bd-a508-f3eee7585da5",
+          "episode_number": 20,
+          "title": "Shangri-La Frontier S02E20",
+          "sub_url": "https://drive.google.com/file/d/1GG5t2rdxElI5f9CZDRknz5e1UJz9JGyn/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T04:44:50.689Z",
+          "updated_at": "2026-08-09T04:44:50.689Z"
+        },
+        {
+          "id": "e51ddcd1-ce64-4ec1-9435-ff23ce87f525",
+          "episode_number": 21,
+          "title": "Shangri-La Frontier S02E21",
+          "sub_url": "https://drive.google.com/file/d/1rmsKhmq0mO8mv40VaVIm796MMe41E9dX/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T04:44:50.689Z",
+          "updated_at": "2026-08-09T04:44:50.689Z"
+        },
+        {
+          "id": "89180f96-c82b-48f1-94ac-6742e8464c0a",
+          "episode_number": 22,
+          "title": "Shangri-La Frontier S02E22",
+          "sub_url": "https://drive.google.com/file/d/1RBfMvemH7MjYeMQPKf_rDGwjoBfKdFf_/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T04:44:50.689Z",
+          "updated_at": "2026-08-09T04:44:50.689Z"
+        },
+        {
+          "id": "a52dbc1c-d54e-4de4-8e78-e7da847e85da",
+          "episode_number": 23,
+          "title": "Shangri-La Frontier S02E23",
+          "sub_url": "https://drive.google.com/file/d/1fvb4j5fNt3aAKkqiwKPFPeBCu4YBpDvM/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T04:44:50.689Z",
+          "updated_at": "2026-08-09T04:44:50.689Z"
+        },
+        {
+          "id": "d352e570-f1fb-4f1a-a2a9-9a112eef2a98",
+          "episode_number": 24,
+          "title": "Shangri-La Frontier S02E24",
+          "sub_url": "https://drive.google.com/file/d/1GhtL90xkHZ2f1dbIb6vpVbJumzi0ZPgm/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T04:44:50.689Z",
+          "updated_at": "2026-08-09T04:44:50.689Z"
+        },
+        {
+          "id": "ff89003d-05bd-4746-980c-e6ae59c39dc3",
+          "episode_number": 25,
+          "title": "Shangri-La Frontier S02E25",
+          "sub_url": "https://drive.google.com/file/d/1-At2B8mA49TMR-azwet7xHhdwf0n4CfI/preview",
+          "dub_url": "",
+          "thumbnail": "",
+          "duration": "",
+          "created_at": "2026-08-09T04:44:50.689Z",
+          "updated_at": "2026-08-09T04:44:50.689Z"
+        }
+      ]
     }
   ]
 }
